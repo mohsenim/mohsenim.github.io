@@ -1,6 +1,6 @@
 title: Mahdi Mohseni
 logo: /assets/img/me.png
 description: Machine Learning
-show_downloads: true
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
