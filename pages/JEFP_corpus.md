@@ -57,8 +57,8 @@ The complete list of all texts with metadata is published in [this Github reposi
 
 ### References
 
-*  Mohseni, M.; Gast, V.; Redies, C. _Fractality and Variability in Canonical and Non-Canonical English Fiction and in Non-Fictional Texts_. Front. Psychol. 2021, 12, 920.
-*  Mohseni, Mahdi, Christoph Redies, and Volker Gast (2022). “Approximate Entropy in Canonical and Non-Canonical Fiction”. In: Entropy 24.2, p. 277. 
-*  Bloom, H. _The Western Canon: The Books and School of the Ages_. Harcourt: New York, NY, USA, 1994.
-*  Green, C. Introducing the Corpus of the Canon of Western Literature: A Corpus for Culturomics and Stylistics. Lang. Lit. 2017, 26, 282–299.
+*  Mohseni, Mahdi, Volker Gast, Christoph Redies, _Fractality and Variability in Canonical and Non-Canonical English Fiction and in Non-Fictional Texts_, Front. Psychol. 2021, 12, 920.
+*  Mohseni, Mahdi, Christoph Redies, and Volker Gast, _Approximate Entropy in Canonical and Non-Canonical Fiction_, In: Entropy 24.2, 2022, p. 277. 
+*  Bloom, Harold, _The Western Canon: The Books and School of the Ages_, Harcourt: New York, NY, USA, 1994.
+*  Green, Clarence , _Introducing the Corpus of the Canon of Western Literature: A Corpus for Culturomics and Stylistics_, Lang. Lit., 2017, 26, 282–299.
 
