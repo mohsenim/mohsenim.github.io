@@ -10,7 +10,8 @@ Conversely, non-canonical texts do not gain recognition comparable to canonical 
 To analyze canonical texts in comparison to non-canonical texts, we built a corpus called the "Jena Corpus of Expository and Fictional Prose (JEFP)," which includes the two aforementioned fictional categories, canonical and non-canonical, as well as one category of non-fictional texts, which allow for inter- and intra-genre comparisons.
 
 To classify a text as a canonical text, we considered three criteria:
-    1. The text has been recognized as a canonical text in _The Western Canon: The Books and School of the Ages_ (Bloom, 1994). These texts have been extracted from Project Gutenberg in the _Corpus of Canonical Western Literature_ (Green, 2017).
+
+    1. The text has been recognized as a canonical text in _The Western Canon: The Books and School of the Ages_ (Bloom, 1994). These texts have been extracted from Project Gutenberg and collected in the _Corpus of Canonical Western Literature_ (Green, 2017).
     2. The author should have a high international reputation, measured by counting the number of pages the author has in the top 30 Wikipedia editions.
     3. The text should be long enough to facilitate structural analysis. We set a threshold of 35K tokens, including words and punctuation. This length allows us to apply various types of structural analysis, including long-range correlation analysis (fractal analysis).
 
