@@ -28,6 +28,7 @@ In total, 76 canonical texts, written by 30 authors in the 19th and early 20th c
 |Sinclair Lewis | Theodore Dreiser | Thomas Carlyle | 
 |Thomas Hardy | Walter Scott | Wilkie Collins | 
 |Willa Cather | William Makepeace Thackeray | William Morris |
+
 The complete list of texts is published in this github repository.
 
 The violin plot below shows that number of pages that e
