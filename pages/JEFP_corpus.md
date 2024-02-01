@@ -38,7 +38,7 @@ The raw texts for this corpus category were extracted from Project Gutenberg. Th
 The sub-corpus of non-canonical texts includes 130 texts. Authors of non-canonical texts selected have a lower international reputation compared to canonical authors. The plot below shows the number pages dedicated to canonical and non-canonical authors on the top 30 Wikipedia editions, a metric as a proxy for international reputation. 
 
 ![Internation Reputation](./figs/wiki-authors-30lang.png)
-(Source: mohseni et al., 2020)
+{(Source: mohseni et al., 2020)}
 
 Although non-canonical authors may be less renowned than their canonical counterparts, some of them still are famous and have pages across various languages. Upon closer examination, we found that their notability is often because of activities beyond literature, such as involvement in politics.
 
