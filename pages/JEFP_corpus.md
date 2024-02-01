@@ -15,6 +15,7 @@ To classify a text as a canonical text, we considered three criteria:
     3. The text should be long enough to facilitate structural analysis. We set a threshold of 35K tokens, including words and punctuation. This length allows us to apply various types of structural analysis, including long-range correlation analysis (fractal analysis).
 
 In total, 76 canonical texts, written by 30 authors in the 19th and early 20th century, were incorporated in the The JEFP corpus, version 2.0.  The list of authors is as follows:
+
 | Anne Bronte | Arnold Bennett | Bram Stoker | 
 | Charles Dickens | Charlotte Bronte | Edgar Allan Poe | 
 | Elizabeth Gaskell | George Eliot | Henry David Thoreau | 
