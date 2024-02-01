@@ -3,7 +3,7 @@ layout: default
 ---
 # [A Corpus of Canonical and Non-Canonical Texts](./pages/JEFP_corpus.html)
 Canonical fictional texts are considered to have high cultural value and are familiar to educated members of society, and are included in school curricula. Writers of canonical texts are ...
-[more](./another-page2.html).
+[more](./pages/JEFP_corpus.html).
 
 <!---
 Text can be **bold**, _italic_, or ~~strikethrough~~.
