@@ -54,7 +54,7 @@ The following table shows information about the JEFP corpus (information taken f
 
 The complete list of all texts with metadata is published in [this Github repository](https://github.com/mohsenim/JEFP-Corpus).
 
-(Information presented in this post were taken from our two papers: mohseni et al., 2021, 2022)
+(Information presented in this post is mostly taken from our two papers: mohseni et al., 2021, 2022)
 
 ### References
 
