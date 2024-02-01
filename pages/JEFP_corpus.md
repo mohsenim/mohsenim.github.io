@@ -25,7 +25,7 @@ In total, 76 canonical texts, written by 30 authors in the 19th and early 20th c
 | Elizabeth Gaskell | George Eliot | Henry David Thoreau | 
 |Henry James | Herman Melville | James Fenimore Cooper | 
 |James Joyce | Jane Austen | Joseph Conrad | 
-| Lawrence D.H | Louisa May Alcott | Mark Twain | 
+| D.H. Lawrence | Louisa May Alcott | Mark Twain | 
 | Nathaniel Hawthorne | Oscar Wilde | Rudyard Kipling | 
 |Sinclair Lewis | Theodore Dreiser | Thomas Carlyle | 
 |Thomas Hardy | Walter Scott | Wilkie Collins | 
@@ -53,6 +53,7 @@ The following table shows information about the JEFP corpus (information taken f
 | Non-Fictional | 185 | 171 ± 178K |
 
 The complete list of all texts with metadata is published in [this Github repository](https://github.com/mohsenim/JEFP-Corpus).
+
 
 ### References
 
