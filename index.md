@@ -11,7 +11,7 @@ Here, I write about topics that I find interesting.
 # [A Corpus of Canonical and Non-Canonical Texts](./pages/JEFP_corpus.html)
 Canonical fictional texts are considered to have high cultural value and are familiar to educated members of society, and are included in school curricula. Writers of canonical texts are prestigious writers and hold strong reputation. Although canonization is a process influenced by various stakeholders, and the reputation of canonical texts is promoted by influential sectors of society, for a text to be selected in a canon, the textual properties, reading, and readership of these texts undoubtedly play crucial roles.
 
-[more](./pages/JEFP_corpus.html).
+[read more ...](./pages/JEFP_corpus.html)
 
 <!---
 Text can be **bold**, _italic_, or ~~strikethrough~~.
