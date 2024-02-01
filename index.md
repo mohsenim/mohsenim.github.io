@@ -1,6 +1,13 @@
 ---
 layout: default
 ---
+
+## About me
+I specialize in Machine Learning, Natural Language Processing, and Data Analysis. My Ph.D. project was on the structural analysis of text, investigating properties of text organization and their correlations with text quality. 
+Currently, I focus on large language models, MLOps, and using automated techniques for analyzing both textual and non-textual data.
+
+Here, I write about topics that I find interesting.
+
 # [A Corpus of Canonical and Non-Canonical Texts](./pages/JEFP_corpus.html)
 Canonical fictional texts are considered to have high cultural value and are familiar to educated members of society, and are included in school curricula. Writers of canonical texts are ...
 [more](./pages/JEFP_corpus.html).
