@@ -41,13 +41,13 @@ The raw texts for this corpus category were extracted from Project Gutenberg. Th
 The sub-corpus of non-canonical texts includes 130 texts. Authors of non-canonical texts selected have a lower international reputation compared to canonical authors. The plot below shows the number of articles dedicated to canonical and non-canonical authors on the top 30 Wikipedia editions, a metric as a proxy for international reputation. 
 
 ![Internation Reputation](./figs/wiki-authors-30lang.png)
-(Source: mohseni et al., 2020)
+(Source: Mohseni et al., 2020)
 
 Although non-canonical authors may be less renowned than their canonical counterparts, some of them still are famous and have pages across various languages. Upon closer examination, we found that their notability is often because of activities beyond literature, such as involvement in politics.
 
 ##  Non-Fictional Texts
 185 non-fictional texts belonging to genres like philosophy, psychology, and sociology were selected from Project Gutenberg from the same time period as the two fictional categories, i.e., the 19th and early 20th century, to build the category of non-fictional texts. 
-The following table shows information about the JEFP corpus (information taken from mohseni et al., 2020):
+The following table shows information about the JEFP corpus (information taken from Mohseni et al., 2020):
 
 | Category | # Texts | Mean Length |
 | ---- | ---- | ---- |
@@ -57,7 +57,7 @@ The following table shows information about the JEFP corpus (information taken f
 
 The complete list of all texts with metadata is published in [this Github repository](https://github.com/mohsenim/JEFP-Corpus).
 
-(Information presented in this post is mostly taken from our two papers: mohseni et al., 2021, 2022)
+(Information presented in this post is mostly taken from our two papers: Mohseni et al., 2021, 2022)
 
 ### References
 
