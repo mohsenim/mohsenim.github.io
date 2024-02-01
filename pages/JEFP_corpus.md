@@ -35,7 +35,7 @@ The complete list of texts is published in this github repository.
 
 ## Non-Canonical Text
 The raw texts for this corpus category were extracted from Project Gutenberg. The extraction aimed to ensure that the distribution of the years of publication is statistically indistinguishable for canonical and non-canonical texts. As of the compilation of the corpus in May 2020, none of these texts had a download count exceeding 40, as indicated on the Project Gutenberg website. This could be seen as an approach to avoid the inclusion of popular literature in the corpus. Similar to the category of canonical texts, a minimum text length of 35K tokens were applied in the selection process.
-The sub-corpus of non-canonical texts includes 130 texts. Authors of non-canonical texts selected have a lower international reputation compared to canonical authors. The plot below shows the number pages dedicated to canonical and non-canonical authors on the top 30 Wikipedia editions, a metric as a proxy for international reputation. 
+The sub-corpus of non-canonical texts includes 130 texts. Authors of non-canonical texts selected have a lower international reputation compared to canonical authors. The plot below shows the number of articles dedicated to canonical and non-canonical authors on the top 30 Wikipedia editions, a metric as a proxy for international reputation. 
 
 ![Internation Reputation](./figs/wiki-authors-30lang.png)
 (Source: mohseni et al., 2020)
@@ -54,6 +54,7 @@ The following table shows information about the JEFP corpus (information taken f
 
 The complete list of all texts with metadata is published in [this Github repository](https://github.com/mohsenim/JEFP-Corpus).
 
+(Information presented in this post were taken from our two papers: mohseni et al., 2021, 2022)
 
 ### References
 
