@@ -11,9 +11,9 @@ To analyze canonical texts in comparison to non-canonical texts, we built a corp
 
 To classify a text as a canonical text, we considered three criteria:
 
-    1. The text has been recognized as a canonical text in _The Western Canon: The Books and School of the Ages_ (Bloom, 1994). These texts have been extracted from Project Gutenberg and collected in the _Corpus of Canonical Western Literature_ (Green, 2017).
-    2. The author should have a high international reputation, measured by counting the number of pages the author has in the top 30 Wikipedia editions.
-    3. The text should be long enough to facilitate structural analysis. We set a threshold of 35K tokens, including words and punctuation. This length allows us to apply various types of structural analysis, including long-range correlation analysis (fractal analysis).
+1.  The text has been recognized as a canonical text in _The Western Canon: The Books and School of the Ages_ (Bloom, 1994). These texts have been extracted from Project Gutenberg and collected in the _Corpus of Canonical Western Literature_ (Green, 2017).
+2.  The author should have a high international reputation, measured by counting the number of pages the author has in the top 30 Wikipedia editions.
+3.  The text should be long enough to facilitate structural analysis. We set a threshold of 35K tokens, including words and punctuation. This length allows us to apply various types of structural analysis, including long-range correlation analysis (fractal analysis).
 
 In total, 76 canonical texts, written by 30 authors in the 19th and early 20th century, were incorporated in the The JEFP corpus, version 2.0.  The list of authors is as follows:
 
