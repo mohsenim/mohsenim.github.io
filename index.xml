@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>http://localhost:1313/</link>
+    <link>https://mohsenim.de/</link>
     <description>Recent content on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 26 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mohsenim.de/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Last Post: Logging Datasets in Machine Learning Experiments with MLflow</title>
-      <link>http://localhost:1313/blog/mlfow-log-dataset/</link>
+      <link>https://mohsenim.de/blog/mlfow-log-dataset/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/mlfow-log-dataset/</guid>
+      <guid>https://mohsenim.de/blog/mlfow-log-dataset/</guid>
       <description>&lt;p&gt;MLflow is widely recognized as a powerful tool for tracking machine learning (ML) experiments, enabling data scientists and ML experts to systematically log metrics, parameters, and models. However, its capabilities extend beyond these traditional use cases — MLflow can also be used to track datasets. Logging information about training and evaluation datasets is a critical step in enhancing the transparency and reproducibility of ML experiments. By capturing dataset details, such as versioning and splits, MLflow helps ensure that experiments can be accurately replicated and understood.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Microsoft Azure Certificates — Part 1: Azure Fundamental AZ-900</title>
-      <link>http://localhost:1313/blog/azure-ai900/</link>
+      <link>https://mohsenim.de/blog/azure-ai900/</link>
       <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/azure-ai900/</guid>
+      <guid>https://mohsenim.de/blog/azure-ai900/</guid>
       <description>&lt;p&gt;I was offered a package of training programs covering several Microsoft Azure certificates. In a few posts, I’m going to explain each of these Azure certificates from the perspective of a data science and ML expert. The first post covers the Microsoft Azure Fundamentals certificate (AZ-900). I had access to official training by Microsoft and the learning material on learn.microsoft.com. Since the official learning material published on on learn.microsoft.com is the source for the exam, I will refer to the topics covered there.&lt;/p&gt;</description>
     </item>
     <item>
       <title>From Exploration to Modeling: When ML Models Fail in Action — A Case Study</title>
-      <link>http://localhost:1313/blog/insurance-failed-model/</link>
+      <link>https://mohsenim.de/blog/insurance-failed-model/</link>
       <pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/insurance-failed-model/</guid>
+      <guid>https://mohsenim.de/blog/insurance-failed-model/</guid>
       <description>&lt;p&gt;I was asked to explore a car insurance premium dataset and predict a “fair” premium for each policyholder. The task included exploratory data analysis, feature engineering, model selection and comparison, and suggestions for model improvement. It was an interesting and insightful task, as our expectations sometimes fail and we can’t tackle the problem in a routine and straightforward way. I touch upon the exploratory analysis and model training. I will illustrate that machine learning models may not always meet our initial expectations. However, through a shift in perspective and a thorough analysis of the problem, we can still utilize their potential effectively.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Contact me</title>
-      <link>http://localhost:1313/contact/</link>
+      <link>https://mohsenim.de/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
+      <guid>https://mohsenim.de/contact/</guid>
       <description>&lt;p&gt;My contact and the address of my profile on the social websites are as follows:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Website: &lt;a href=&#34;https://mohsenim.de&#34;&gt;mohsenim.de&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Email: &lt;a href=&#34;mailto:kontact@mohsenim.de&#34;&gt;kontakt@mohsenim.de&lt;/a&gt; or &lt;a href=&#34;mailto:contact@mohsenim.com&#34;&gt;contact@mohsenim.com&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;LinkedIn: &lt;a href=&#34;https://www.linkedin.com/in/mohsenim&#34;&gt;mohsenim&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;GitHub: &lt;a href=&#34;https://github.com/mohsenim&#34;&gt;mohsenim&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Medium: &lt;a href=&#34;https://medium.com/@mohsenim&#34;&gt;mohsenim&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>

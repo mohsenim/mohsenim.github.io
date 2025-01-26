@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Insurance on </title>
-    <link>http://localhost:1313/tags/insurance/</link>
+    <link>https://mohsenim.de/tags/insurance/</link>
     <description>Recent content in Insurance on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 07 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/insurance/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mohsenim.de/tags/insurance/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>From Exploration to Modeling: When ML Models Fail in Action — A Case Study</title>
-      <link>http://localhost:1313/blog/insurance-failed-model/</link>
+      <link>https://mohsenim.de/blog/insurance-failed-model/</link>
       <pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/insurance-failed-model/</guid>
+      <guid>https://mohsenim.de/blog/insurance-failed-model/</guid>
       <description>&lt;p&gt;I was asked to explore a car insurance premium dataset and predict a “fair” premium for each policyholder. The task included exploratory data analysis, feature engineering, model selection and comparison, and suggestions for model improvement. It was an interesting and insightful task, as our expectations sometimes fail and we can’t tackle the problem in a routine and straightforward way. I touch upon the exploratory analysis and model training. I will illustrate that machine learning models may not always meet our initial expectations. However, through a shift in perspective and a thorough analysis of the problem, we can still utilize their potential effectively.&lt;/p&gt;</description>
     </item>
   </channel>
