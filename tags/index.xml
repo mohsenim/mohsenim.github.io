@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on </title>
-    <link>https://www.mohsenim.de/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 26 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.mohsenim.de/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Machine_learning</title>
-      <link>https://www.mohsenim.de/tags/machine_learning/</link>
+      <link>http://localhost:1313/tags/machine_learning/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.mohsenim.de/tags/machine_learning/</guid>
+      <guid>http://localhost:1313/tags/machine_learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Mlflow</title>
-      <link>https://www.mohsenim.de/tags/mlflow/</link>
+      <link>http://localhost:1313/tags/mlflow/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.mohsenim.de/tags/mlflow/</guid>
+      <guid>http://localhost:1313/tags/mlflow/</guid>
       <description></description>
     </item>
     <item>
       <title>Reproducability</title>
-      <link>https://www.mohsenim.de/tags/reproducability/</link>
+      <link>http://localhost:1313/tags/reproducability/</link>
       <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.mohsenim.de/tags/reproducability/</guid>
+      <guid>http://localhost:1313/tags/reproducability/</guid>
       <description></description>
     </item>
     <item>
       <title>Az900</title>
-      <link>https://www.mohsenim.de/tags/az900/</link>
+      <link>http://localhost:1313/tags/az900/</link>
       <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.mohsenim.de/tags/az900/</guid>
+      <guid>http://localhost:1313/tags/az900/</guid>
       <description></description>
     </item>
     <item>
       <title>Azure</title>
-      <link>https://www.mohsenim.de/tags/azure/</link>
+      <link>http://localhost:1313/tags/azure/</link>
       <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.mohsenim.de/tags/azure/</guid>
+      <guid>http://localhost:1313/tags/azure/</guid>
       <description></description>
     </item>
     <item>
       <title>Cloud</title>
-      <link>https://www.mohsenim.de/tags/cloud/</link>
+      <link>http://localhost:1313/tags/cloud/</link>
       <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.mohsenim.de/tags/cloud/</guid>
+      <guid>http://localhost:1313/tags/cloud/</guid>
       <description></description>
     </item>
     <item>
       <title>Explaratory_analysis</title>
-      <link>https://www.mohsenim.de/tags/explaratory_analysis/</link>
+      <link>http://localhost:1313/tags/explaratory_analysis/</link>
       <pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.mohsenim.de/tags/explaratory_analysis/</guid>
+      <guid>http://localhost:1313/tags/explaratory_analysis/</guid>
       <description></description>
     </item>
     <item>
       <title>Insurance</title>
-      <link>https://www.mohsenim.de/tags/insurance/</link>
+      <link>http://localhost:1313/tags/insurance/</link>
       <pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.mohsenim.de/tags/insurance/</guid>
+      <guid>http://localhost:1313/tags/insurance/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,56 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.mohsenim.de/blog/</loc>
+    <loc>http://localhost:1313/blog/</loc>
     <lastmod>2025-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.mohsenim.de/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.mohsenim.de/blog/mlfow-log-dataset/</loc>
+    <loc>http://localhost:1313/blog/mlfow-log-dataset/</loc>
     <lastmod>2025-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.mohsenim.de/tags/machine_learning/</loc>
+    <loc>http://localhost:1313/tags/machine_learning/</loc>
     <lastmod>2025-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.mohsenim.de/tags/mlflow/</loc>
+    <loc>http://localhost:1313/tags/mlflow/</loc>
     <lastmod>2025-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.mohsenim.de/tags/reproducability/</loc>
+    <loc>http://localhost:1313/tags/reproducability/</loc>
     <lastmod>2025-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.mohsenim.de/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.mohsenim.de/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
     <lastmod>2024-10-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.mohsenim.de/tags/az900/</loc>
+    <loc>http://localhost:1313/tags/az900/</loc>
     <lastmod>2024-07-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.mohsenim.de/tags/azure/</loc>
+    <loc>http://localhost:1313/tags/azure/</loc>
     <lastmod>2024-07-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.mohsenim.de/tags/cloud/</loc>
+    <loc>http://localhost:1313/tags/cloud/</loc>
     <lastmod>2024-07-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.mohsenim.de/blog/azure-ai900/</loc>
+    <loc>http://localhost:1313/blog/azure-ai900/</loc>
     <lastmod>2024-07-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.mohsenim.de/tags/explaratory_analysis/</loc>
+    <loc>http://localhost:1313/tags/explaratory_analysis/</loc>
     <lastmod>2024-07-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.mohsenim.de/blog/insurance-failed-model/</loc>
+    <loc>http://localhost:1313/blog/insurance-failed-model/</loc>
     <lastmod>2024-07-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.mohsenim.de/tags/insurance/</loc>
+    <loc>http://localhost:1313/tags/insurance/</loc>
     <lastmod>2024-07-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.mohsenim.de/cv/</loc>
+    <loc>http://localhost:1313/cv/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.mohsenim.de/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://www.mohsenim.de/contact/</loc>
+    <loc>http://localhost:1313/contact/</loc>
   </url>
 </urlset>
