@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Css on </title>
-    <link>https://www.mohsenim.de/tags/css/</link>
+    <link>http://localhost:1313/tags/css/</link>
     <description>Recent content in Css on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 19 Nov 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.mohsenim.de/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/css/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Last Post</title>
-      <link>https://www.mohsenim.de/blog/markdown_syntax/</link>
+      <link>http://localhost:1313/blog/markdown_syntax/</link>
       <pubDate>Sat, 19 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.mohsenim.de/blog/markdown_syntax/</guid>
+      <guid>http://localhost:1313/blog/markdown_syntax/</guid>
       <description>&lt;p&gt;This article&lt;/p&gt;</description>
     </item>
   </channel>

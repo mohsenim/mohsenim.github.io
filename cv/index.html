@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en-us" class="m-auto dark"><head>
+  <title>Mahdi Mohseni</title>
+
+<meta name="theme-color" content="" />
+<meta charset="utf-8" />
+<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<meta name="description" content="Personal Homepage" />
+<meta name="author" content="Mahdi Mohseni" />
+<meta name="generator" content="aafu theme by Darshan in Hugo 0.141.0" />
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">        <link rel="manifest" href="/site.webmanifest">        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#252627">        <link rel="shortcut icon" href="/favicon.ico">
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+    integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="//fonts.googleapis.com/css?family=Didact+Gothic%7CRoboto:400%7CRoboto+Mono"
+  />
+
+  
+  
+    
+  
+  <link href="/main.min.9ae34522f89efec7247e0f91ad7a9c6e3a681a6019f4c4eb841774e3ea4206d6.css" rel="stylesheet" />
+
+  <script>
+    let html = document.querySelector("html");
+    let theme = window.localStorage.getItem("theme");
+    if (theme) {
+      theme === "dark"
+        ? html.classList.add("dark")
+        : html.classList.remove("dark");
+    } else if (html.classList.contains("dark")) {
+      window.localStorage.setItem("theme", "dark");
+    } else {
+      html.classList.remove("dark");
+      window.localStorage.setItem("theme", "light");
+    }
+
+    window.onload = () => {
+      let themeToggle = document.querySelector(".theme-toggle");
+      if (window.localStorage.getItem("theme") === "dark") {
+        themeToggle.classList.remove("bi-moon-fill");
+        themeToggle.classList.add("bi-brightness-high");
+      } else {
+        themeToggle.classList.add("bi-moon-fill");
+        themeToggle.classList.remove("bi-brightness-high");
+      }
+
+      let defaultActivePanel = document.querySelector(".accordion.active");
+      if (defaultActivePanel) {
+        defaultActivePanel.nextElementSibling.style.maxHeight =
+          defaultActivePanel.nextElementSibling.scrollHeight + "px";
+      }
+    };
+
+    window.onresize = () => {
+      let defaultActivePanel = document.querySelector(".accordion.active");
+      if (defaultActivePanel) {
+        defaultActivePanel.nextElementSibling.style.maxHeight =
+          defaultActivePanel.nextElementSibling.scrollHeight + "px";
+      }
+    };
+  </script>
+</head>
+<body class="h-screen p-2 m-auto max-w-4xl flex flex-col">
+    
+    <header
+  class="nav flex flex-row row py-2 mb-6 w-full border-b border-gray-300 dark:border-gray-700 justify-between"
+>
+  <div>
+    <a class="no-underline p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-800" href="https://www.mohsenim.de/">Home</a>    
+    <a class="no-underline p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-800" href="https://www.mohsenim.de/cv/">CV</a>
+    <a class="no-underline p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-800" href="/blog">Blog</a>
+    <a class="no-underline p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-800" href="https://www.mohsenim.de/contact/">Contact</a>
+  </div>
+  <div>
+  
+  <i
+    class="fas fa-sun theme-toggle text-blue-500 hover:text-blue-700 dark:text-yellow-300 dark:hover:text-yellow-500 cursor-pointer text-lg mr-9 sm:mr-0"
+    onclick="lightDark(this)"
+  ></i>
+</div>
+</header>
+
+<script>
+  const lightDark = (el) => {
+    let html = document.querySelector("html");
+    if (html.classList.contains("dark")) {
+      html.classList.remove("dark");
+      el.classList.add("fa-moon");
+      el.classList.remove("fa-sun");
+      window.localStorage.setItem("theme", "light");
+    } else {
+      html.classList.add("dark");
+      el.classList.add("fa-sun");
+      el.classList.remove("fa-moon");
+      window.localStorage.setItem("theme", "dark");
+    }
+  };
+</script>
+
+    
+    <main class="grow">
+<h1 class="mb-4 mt-4">Mahdi Mohseni</h1>
+<h3 class="mb-4 mt-4">Data / ML Scientist</h3>
+
+  
+  <div class="col-span-2 relative">
+    
+    <div class="px-2">
+      <h2 class="my-0 accordion active">
+        
+        <p
+          class="hover:bg-gray-300 rounded dark:hover:bg-darker m-0 p-2"
+          onclick="expandAccordion(this)"
+          style="cursor: pointer"
+        >
+          <i class="fas fa-user"></i>
+          My Expertise</p>
+      </h2>
+
+      <div
+        class="panel overflow-hidden px-2 ml-2"
+        
+      >
+        <div class=""><p class="markdownify">
+  <p>I&rsquo;m a Data Scientist and Machine Learning (ML) specialist with expertise in two key areas: uncovering insights from complex, data-driven challenges through analytical modeling and designing robust data processing pipelines to operationalize these models.</p>
+<p>I bring hands-on experience in research and development, particularly in machine learning, data analysis, and modern deep learning techniques such as Generative AI (GenAI) and Large Language Models (LLMs). My strong background includes designing and implementing machine learning projects, with a focus on natural language processing, time series analysis, and image processing.</p>
+
+</p>
+</div>
+      </div>
+    </div>
+    
+    <div class="px-2">
+      <h2 class="my-0 accordion">
+        
+        <p
+          class="hover:bg-gray-300 rounded dark:hover:bg-darker m-0 p-2"
+          onclick="expandAccordion(this)"
+          style="cursor: pointer"
+        >
+          <i class="fas fa-briefcase"></i>
+          Experiences</p>
+      </h2>
+
+      <div
+        class="panel overflow-hidden px-2 ml-2"
+        
+      >
+        <div class="">
+<h4 style="text-decoration: underline;">Freelance Data Scientist and ML Engineer</h4>
+<p class="mb-0">
+  Sep 2023 - <em>Present</em> &middot;   
+</p>
+
+<div class="prose prose-stone dark:prose-invert max-w-none">
+<ul>
+<li>Leveraging large language models (LLM) and generative AI (GenAI) to improve customer relationships and interactions</li>
+<li>Designing an LLM-based recommender system with query optimization via Retrieval Augmented Generation (RAG)</li>
+<li>Optimizing Customer Relationship Management (CRM) operations using language analysis and NLP techniques</li>
+<li>Fine-tuning AI models using a tailored instruction dataset to improve the performance and accuracy</li>
+</ul>
+
+</div>
+
+
+
+<h4 style="text-decoration: underline;">Researcher and Developer</h4>
+<p class="mb-0">
+  Jan 2019 - Sep 2023 &middot;  Friedrich Schiller University Jena 
+</p>
+
+<div class="prose prose-stone dark:prose-invert max-w-none">
+<ul>
+<li>R&amp;D project in the field of text and image analysis with machine learning</li>
+<li>Development of machine learning models for classification and clustering test and image datasets</li>
+<li>Time series, long-range correlations and unpredictability analysis</li>
+<li>Structural analysis of long texts</li>
+<li>Implementation of MLOps and development of transformer-based DNN</li>
+</ul>
+
+</div>
+
+
+
+<h4 style="text-decoration: underline;">Research and Developer</h4>
+<p class="mb-0">
+  Jan 2018 - Dec 2018 &middot;  Heidelberg Institute for Theoretical Studies (HITS) 
+</p>
+
+<div class="prose prose-stone dark:prose-invert max-w-none">
+<ul>
+<li>Development of neural models (GenAI, LSTM, Tree-LSTM and end-to-end neural models)</li>
+<li>Implementation of reinforcement learning in neural models</li>
+<li>Research and development of generative models for abstractive text summarization</li>
+</ul>
+
+</div>
+
+
+
+<h4 style="text-decoration: underline;">Machine Learning Scientist</h4>
+<p class="mb-0">
+  Sep 2016 - Dec 2017 &middot;  Intelligent Information System Lab 
+</p>
+
+<div class="prose prose-stone dark:prose-invert max-w-none">
+<ul>
+<li>Project Manager</li>
+<li>Management, monitoring and coordination of the “Named Entity Recognition” (NER) project</li>
+<li>Supervision and goal-oriented collaboration with the development team</li>
+<li>Programming with Java</li>
+<li>Implementation of machine learning models for text analysis as main components of a search engine for the Persian language</li>
+</ul>
+
+</div>
+
+
+
+<h4 style="text-decoration: underline;">Developer and Machine Learning Engineer</h4>
+<p class="mb-0">
+  Jan 2014 - Aug 2016 &middot;  Mobin Information Technology Research Center 
+</p>
+
+<div class="prose prose-stone dark:prose-invert max-w-none">
+<ul>
+<li>Head of Text Processing Team</li>
+<li>Development of analysis modules for the automatic extraction of entities and relationship extraction from news texts, news clustering and recommendations</li>
+</ul>
+
+</div>
+
+
+
+<h4 style="text-decoration: underline;">Developer and Data Analyst</h4>
+<p class="mb-0">
+  May 2008 - Sep 2013 &middot;  Computational Linguistics Lab in University of Tehran 
+</p>
+
+<div class="prose prose-stone dark:prose-invert max-w-none">
+<ul>
+<li>Development of core language processing modules for the Persian Language</li>
+<li>Developing and analyzing textual linguistic corpora</li>
+<li>Development of systems for semi-supervised annotation of linguistic data</li>
+</ul>
+
+</div>
+
+
+
+</div>
+      </div>
+    </div>
+    
+    <div class="px-2">
+      <h2 class="my-0 accordion">
+        
+        <p
+          class="hover:bg-gray-300 rounded dark:hover:bg-darker m-0 p-2"
+          onclick="expandAccordion(this)"
+          style="cursor: pointer"
+        >
+          <i class="fas fa-graduation-cap"></i>
+          Education</p>
+      </h2>
+
+      <div
+        class="panel overflow-hidden px-2 ml-2"
+        
+      >
+        <div class="">
+
+<h4 style="text-decoration: underline;">Ph.D. in Computational Language Processing</h4>
+<p >Apr 2021 - Jan 2024 &middot; Friedrich Schiller University Jena</p>
+
+
+
+<h4 style="text-decoration: underline;">Ph.D. Candidate in Computer Engineering</h4>
+<p >Sep 2016 - Dec 2017 &middot; University of Tehran</p>
+
+
+
+<h4 style="text-decoration: underline;">M.S. in Artificial Intelligence and Robotics</h4>
+<p >Sep 2005 - May 2008 &middot; Iran University of Science and Technology</p>
+
+
+</div>
+      </div>
+    </div>
+    
+    <div class="px-2">
+      <h2 class="my-0 accordion">
+        
+        <p
+          class="hover:bg-gray-300 rounded dark:hover:bg-darker m-0 p-2"
+          onclick="expandAccordion(this)"
+          style="cursor: pointer"
+        >
+          <i class="fas fa-book"></i>
+          Publications</p>
+      </h2>
+
+      <div
+        class="panel overflow-hidden px-2 ml-2"
+        
+      >
+        <div class="">
+
+
+<h4 style="text-decoration: underline;">Journal Articles</h4><p class="foo indent-8">
+
+<em>Comparative Analysis of Preference in Contemporary and Earlier Texts Using Entropy Measures.</em>
+
+
+M. Mohseni, C. Redies, and V. Gast.
+Entropy.
+2023.
+</p>
+<p class="foo indent-8">
+
+<em>Approximate Entropy in Canonical and Non-Canonical Fiction.</em>
+
+
+M. Mohseni, C. Redies, and V. Gast.
+Entropy.
+2022.
+</p>
+<p class="foo indent-8">
+
+<em>Fractality and Variability in Canonical and Non-Canonical English Fiction and in Non-Fictional Texts.</em>
+
+
+M. Mohseni, C. Redies, and V. Gast.
+Frontiers in Psychology.
+2021.
+</p>
+<p class="foo indent-8">
+
+<em>Global image properties predict ratings of affective pictures.</em>
+
+
+C. Redies, M. Grebenkina, M. Mohseni, A. Kaduhm, and C. Dobel.
+Frontiers in Psychology.
+2020.
+</p>
+<p class="foo indent-8">
+
+<em>PEYMA: An annotated corpus for Persian named entities.</em>
+
+
+M. Shahshahani, M. Mohseni, A. Shakery, and H. Faili.
+Signal and Data Processing.
+2019.
+</p>
+
+
+<h4 style="text-decoration: underline;">Proceedings</h4><p class="foo indent-8">
+
+<em>Title generation and keyphrase extraction from Persian scientific texts.</em>
+
+
+M. Mohseni and H. Faili.
+25th International Computer Conference, Computer Society of Iran.
+2020.
+</p>
+<p class="foo indent-8">
+
+<em>&#34;MorphoBERT: A Persian NER system with BERT and morphological analysis&#34;.</em>
+
+
+M. Mohseni and A. Tebbifakhr.
+Workshop on NLP Solutions for Under-Resourced Languages co-located with ICNLSP.
+2019.
+</p>
+<p class="foo indent-8">
+
+<em>A conceptual framework for clone detection using machine learning          .</em>
+
+
+J. Ghofrani, M. Mohseni, and A. Bozorgmehr.
+IEEE 4th International Conference on Knowledge-Based Engineering and Innovation.
+2019.
+</p>
+<p class="foo indent-8">
+
+<em>Topic Modeling Based Analysis of Professors Roles in Directing Theses.</em>
+
+
+M. Mohseni, and H. Faili.
+18th International Conference on Intelligent Text Processing and Computational Linguistics.
+2017.
+</p>
+
+
+
+</div>
+      </div>
+    </div>
+    
+    <div class="px-2">
+      <h2 class="my-0 accordion">
+        
+        <p
+          class="hover:bg-gray-300 rounded dark:hover:bg-darker m-0 p-2"
+          onclick="expandAccordion(this)"
+          style="cursor: pointer"
+        >
+          <i class="fas fa-project-diagram"></i>
+          Projects</p>
+      </h2>
+
+      <div
+        class="panel overflow-hidden px-2 ml-2"
+        
+      >
+        <div class="">
+<h4>
+  <a href="https://github.com/mohsenim/Local-RAG-with-LangChain-and-Chroma">Local-RAG: Retrieval-Augmented Generation (RAG) for Querying Local Documents</a>
+</h4>
+<p class="markdownify indent-8">Implementing RAG to query local documents using LangChain, Chroma, and LLMs</p>
+
+<h4>
+  <a href="https://github.com/mohsenim/FastAPI-Backend-Frontend-Azure">Customized Full-Stack FastAPI Template for Deployment on Container Services on Azure and Other Cloud Platforms</a>
+</h4>
+<p class="markdownify indent-8">A FastAPI backend and frontend template customized for seamless deployment in container environments</p>
+
+<h4>
+  <a href="https://github.com/mohsenim/BentoMl-Deploy-Docker">BentoML: Serving and Deploying Machine Learning Models</a>
+</h4>
+<p class="markdownify indent-8">Packaging machine learning models with BentoML for deployment as REST APIs and Docker images</p>
+
+<h4>
+  <a href="https://github.com/mohsenim/MLflow-XGBoost-Docker">MLflow: Tracking Machine Learning Experiments and Deployment</a>
+</h4>
+<p class="markdownify indent-8">Tracking and monitoring machine learning Experiments with MLflow, Hyperparameter Optimization, and Dockerizing trained models</p>
+
+<h4>
+  <a href="https://github.com/mohsenim/Text-Image-NN-Classifier">Text2Image-NN-Classifier: Fractal Analysis and Classification of Long Texts Using Pre-Trained Deep Neural Models for Image Processing</a>
+</h4>
+<p class="markdownify indent-8">A cross-domain analysis project that leverages pre-trained deep neural models designed for image processing to analyze long texts</p>
+
+<h4>
+  <a href="https://github.com/mohsenim/Sequence-Labeling-fastai">Sequence-Labeling-fastai: Document-Level Sequence Labeling Using fastai</a>
+</h4>
+<p class="markdownify indent-8">Implementation of a sequence labeling on top of a language model that seamlessly processes entire documents without splitting text into separated chunks and memory constraints</p>
+
+<h4>
+  <a href="#">MorphoBERT: An NER System Based on the BERT Neural Model</a>
+</h4>
+<p class="markdownify indent-8">Acclaimed as the top performing system in the shared-task competition on NLP Solutions for Under-Resourced Languages</p>
+
+<h4>
+  <a href="https://github.com/mohsenim/persianp">Persianp: A Text Processing Toolbox</a>
+</h4>
+<p class="markdownify indent-8">A text processing toolbox developed in Java that implements a pipeline for core processes such as tokenization, lemmatization, POS tagging, and noun phrase chunking</p>
+
+</div>
+      </div>
+    </div>
+    
+    <div class="px-2">
+      <h2 class="my-0 accordion">
+        
+        <p
+          class="hover:bg-gray-300 rounded dark:hover:bg-darker m-0 p-2"
+          onclick="expandAccordion(this)"
+          style="cursor: pointer"
+        >
+          <i class="fas fa-certificate"></i>
+          Cloud Certifications / Programs</p>
+      </h2>
+
+      <div
+        class="panel overflow-hidden px-2 ml-2"
+        
+      >
+        <div class="">
+<h4 style="text-decoration: underline;">Azure Data Scientist Associate</h4>
+<p class="mb-0">
+  2025 &middot;  certificate ID: 16239424394F1BB5 
+</p>
+
+
+
+<h4 style="text-decoration: underline;">Microsoft Azure AI Fundamentals</h4>
+<p class="mb-0">
+  2024 &middot;  certificate ID: 3BEC9E202509659B 
+</p>
+
+
+
+<h4 style="text-decoration: underline;">Microsoft Azure Fundamentals</h4>
+<p class="mb-0">
+  2024 &middot;  certificate ID: 95247956A57FBD66 
+</p>
+
+
+
+<h4 style="text-decoration: underline;">Developing Solutions for Microsoft Azure</h4>
+<p >
+  2024 &middot;   
+</p>
+
+
+
+<h4 style="text-decoration: underline;">Designing and Implementing an Azure AI Solution</h4>
+<p >
+  2024 &middot;   
+</p>
+
+
+
+</div>
+      </div>
+    </div>
+    
+    <div class="px-2">
+      <h2 class="my-0 accordion">
+        
+        <p
+          class="hover:bg-gray-300 rounded dark:hover:bg-darker m-0 p-2"
+          onclick="expandAccordion(this)"
+          style="cursor: pointer"
+        >
+          <i class="fas fa-cogs"></i>
+          Skills</p>
+      </h2>
+
+      <div
+        class="panel overflow-hidden px-2 ml-2"
+        
+        id="skill-panel"
+        
+      >
+        <div class="">
+  <h4 style="text-decoration: underline;">Programming languages</h4>
+  
+    <div class="prose prose-stone dark:prose-invert max-w-none">Python, Java, C/C++, R, Matlab
+    </div>
+  
+
+  <h4 style="text-decoration: underline;">Tools / Libraries</h4>
+  
+    <div class="prose prose-stone dark:prose-invert max-w-none">Pytorch, TensorFlow, Keras, GitHub Actions, Jenkins, Hugging Face Transformers, Azure Machine Learning, fastai, LangChain, LangGraph, scikit-learn, Scipy, PySpark, OpenCV, Docker, MLflow, BentoML, pandas, Numpy, Matplotlib, seaborn
+    </div>
+  
+
+  <h4 style="text-decoration: underline;">Databases</h4>
+  
+    <div class="prose prose-stone dark:prose-invert max-w-none">PostgreSQL, MySQL, MongoDB
+    </div>
+  
+
+  <h4 style="text-decoration: underline;">Languages</h4>
+  
+    <div class="prose prose-stone dark:prose-invert max-w-none">English (Business fluent), Deutsch (Upper-intermediate), Persian (Native), Turkish (Intermediate)
+    </div>
+  
+</div>
+      </div>
+    </div>
+    
+    <div class="px-2">
+      <h2 class="my-0 accordion">
+        
+        <p
+          class="hover:bg-gray-300 rounded dark:hover:bg-darker m-0 p-2"
+          onclick="expandAccordion(this)"
+          style="cursor: pointer"
+        >
+          <i class="fas fa-gamepad"></i>
+          Hobbies</p>
+      </h2>
+
+      <div
+        class="panel overflow-hidden px-2 ml-2"
+        
+      >
+        <div class=""><ul class="pl-0">
+  
+  <li class="list-unstyled mb-2">Traveling</li>
+  
+  <li class="list-unstyled mb-2">Photography</li>
+  
+  <li class="list-unstyled mb-2">Gardening</li>
+  
+</ul>
+</div>
+      </div>
+    </div>
+    
+
+    
+
+
+    <script src="/js/accordion.js"></script>
+  </div>
+
+
+    </main>
+    
+    <footer class="text-sm text-center border-t border-gray-300 dark:border-gray-700  py-6 ">
+  <p class="markdownify">© 2025 Mahdi Mohseni. All rights reserved.</p>
+  <p >
+    <i>
+    </i>
+  </p>
+</footer>
+
+    
+  </body>
+</html>
