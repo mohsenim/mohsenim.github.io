@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deployment on </title>
+    <link>https://mohsenim.de/tags/deployment/</link>
+    <description>Recent content in Deployment on </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://mohsenim.de/tags/deployment/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BentoML: Serving and Deploying Machine Learning Models</title>
+      <link>https://mohsenim.de/blog/bentoml/</link>
+      <pubDate>Tue, 07 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://mohsenim.de/blog/bentoml/</guid>
+      <description>&lt;p&gt;BentoML is an open-source platform for packaging ML models. It effectively simplifies the productionization of ML models by offering easy-to-use built-in features.&#xA;BentoML provides a straightforward approach for packaging trained models and their associated code and dependencies into a unified distribution format called “Bento.” This platform supports various deployment options, including serving models as REST APIs, Docker containers, and batch jobs.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://medium.com/gopenai/serving-and-deploying-machine-learning-models-with-bentoml-germany-car-price-prediction-case-study-1b3968d29a38&#34;&gt;Read more &amp;hellip;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
