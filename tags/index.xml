@@ -6,8 +6,43 @@
     <description>Recent content in Tags on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://mohsenim.de/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Loss_function</title>
+      <link>https://mohsenim.de/tags/loss_function/</link>
+      <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://mohsenim.de/tags/loss_function/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pinball_loss</title>
+      <link>https://mohsenim.de/tags/pinball_loss/</link>
+      <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://mohsenim.de/tags/pinball_loss/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quantile_loss</title>
+      <link>https://mohsenim.de/tags/quantile_loss/</link>
+      <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://mohsenim.de/tags/quantile_loss/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quantile_regression</title>
+      <link>https://mohsenim.de/tags/quantile_regression/</link>
+      <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://mohsenim.de/tags/quantile_regression/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Time_Series_Forecasting</title>
+      <link>https://mohsenim.de/tags/time_series_forecasting/</link>
+      <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://mohsenim.de/tags/time_series_forecasting/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Machine_learning</title>
       <link>https://mohsenim.de/tags/machine_learning/</link>
