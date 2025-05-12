@@ -27,7 +27,7 @@ header-img:
 
 *Jan 2019 – Sep 2023*
 
-* R\&D project in the field of text and image analysis with machine learning
+* R&D project in the field of text and image analysis with machine learning
 * Development of machine learning models for classification and clustering of text and image datasets
 * Time series, long-range correlations, and unpredictability analysis
 * Structural analysis of long texts
@@ -70,14 +70,9 @@ header-img:
 
 ## 🎓 Education
 
-* **Ph.D. in Computational Language Processing**, Friedrich Schiller University Jena
-  *Apr 2021 – Jan 2024*
-
-* **Ph.D. Candidate in Computer Engineering**, University of Tehran
-  *Sep 2016 – Dec 2017*
+* **Ph.D. in Computational Language Processing**, Friedrich-Schiller-Universität Jena
 
 * **M.S. in Artificial Intelligence and Robotics**, Iran University of Science and Technology
-  *Sep 2005 – May 2008*
 
 ---
 

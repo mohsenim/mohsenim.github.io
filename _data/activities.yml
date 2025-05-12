@@ -3,7 +3,7 @@
   description: >
     Many forecasting models use least squares or its variants to minimize prediction errors, treating over- and under-predictions the same. But in practice, the stakes often differ — and single-point predictions don’t reveal how confident the model is.In this post, I turn to parametric models. These assume a specific distribution and predict its parameters directly. In my latest post, I walk through how this works and introduce CRPS — a loss function designed for training such probabilistic models. 
   date: true
-  link: https://medium.com/@mohsenim/time-series-forecasting-continuous-ranked-probability-score-crps-ff5b8383d0e1
+  link: 2025/04/23/crps.html
   image:  assets/img/icons/medium.svg
   tech: 
     - python
@@ -17,7 +17,7 @@
   description: >
     Traditional forecasting treats over- and under-predictions equally, but in real-world scenarios like financial markets, the costs can differ significantly. Quantile forecasting addresses this by estimating confidence intervals, offering a nuanced view of uncertainty. In my latest post, I explore how this method works and cover its advantages.
   date: true
-  link: https://medium.com/@mohsenim/time-series-forecasting-quantile-forecasting-quantile-loss-316dd071a0ca
+  link: 2025/02/11/quantile-loss.html
   image: assets/img/icons/medium.svg
   tech:
     - time_Series_Forecasting
@@ -31,7 +31,7 @@
   description: >
     MLflow is widely recognized as a powerful tool for tracking machine learning (ML) experiments, enabling data scientists and ML experts to systematically log metrics, parameters, and models. However, its capabilities extend beyond these traditional use cases — MLflow can also be used to track datasets.
   date: true
-  link: https://medium.com/@mohsenim/logging-datasets-in-machine-learning-experiments-with-mlflow-a4360d9a62da
+  link: 2025/01/26/mlfow-log-dataset.html
   image: assets/img/icons/medium.svg
   tech:
     - mlflow
