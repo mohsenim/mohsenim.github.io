@@ -1,0 +1,76 @@
+- name: Time Series Forecasting — Continuous Ranked Probability Score (CRPS)
+  id: acivity1
+  description: >
+    Many forecasting models use least squares or its variants to minimize prediction errors, treating over- and under-predictions the same. But in practice, the stakes often differ — and single-point predictions don’t reveal how confident the model is.In this post, I turn to parametric models. These assume a specific distribution and predict its parameters directly. In my latest post, I walk through how this works and introduce CRPS — a loss function designed for training such probabilistic models. 
+  date: true
+  link: https://medium.com/@mohsenim/time-series-forecasting-continuous-ranked-probability-score-crps-ff5b8383d0e1
+  image:  assets/img/icons/medium.svg
+  tech: 
+    - python
+    - time_Series_Forecasting
+    - Continuous_Ranked_Probability_Score
+    - loss_function 
+    - CRPS
+
+- name: Time Series Forecasting — Quantile Forecasting — Quantile Loss
+  id: activity2
+  description: >
+    Traditional forecasting treats over- and under-predictions equally, but in real-world scenarios like financial markets, the costs can differ significantly. Quantile forecasting addresses this by estimating confidence intervals, offering a nuanced view of uncertainty. In my latest post, I explore how this method works and cover its advantages.
+  date: true
+  link: https://medium.com/@mohsenim/time-series-forecasting-quantile-forecasting-quantile-loss-316dd071a0ca
+  image: assets/img/icons/medium.svg
+  tech:
+    - time_Series_Forecasting
+    - quantile_regression
+    - loss_function
+    - quantile_loss
+    - pinball_loss
+
+- name: Logging Datasets in Machine Learning Experiments with MLflow
+  id: activity3
+  description: >
+    MLflow is widely recognized as a powerful tool for tracking machine learning (ML) experiments, enabling data scientists and ML experts to systematically log metrics, parameters, and models. However, its capabilities extend beyond these traditional use cases — MLflow can also be used to track datasets.
+  date: true
+  link: https://medium.com/@mohsenim/logging-datasets-in-machine-learning-experiments-with-mlflow-a4360d9a62da
+  image: assets/img/icons/medium.svg
+  tech:
+    - mlflow
+    - machine_learning
+    - reproducability
+
+
+# - name: Activity 2
+#   id: project2
+#   description: >
+#     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+#     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.   
+#   date: true
+#   link: https://example.com
+#   image: assets/img/icons/apple-touch-icon-72x72.png
+#   tech: 
+#     - c++
+
+# - name: Activity 3
+#   id: project3
+#   description: >
+#     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+#     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.   
+#   date: true
+#   link: https://example.com
+#   image:  http://placehold.it/100x100
+#   tech: 
+#     - Java
+#     - Maven
+#     - Jenkins
+
+# - name: Activity 4
+#   id: project4
+#   description: >
+#     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+#     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 0
+#   date: true
+#   link: https://example.com
+#   image: http://placehold.it/100x100
+#   tech: 
+#     - Sonarcube
+#     - Java
