@@ -9,7 +9,7 @@ pgp: false
 My contact and the address of my profile on the social websites are as follows:
 
 - Website: [www.mohsenim.de](https://www.mohsenim.de)
-<p>Email: <span id="email"></span></p>
+- <p>Email: <span id="email"></span></p>
 <script>
   const user1 = "kontakt";
   const user2 = "contact";
