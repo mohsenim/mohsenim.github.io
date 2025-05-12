@@ -82,7 +82,6 @@ layout: default
           {% if section.name == "Publications" %}
                 <p><i>{{section.description}}</i></p>
             {% elsif section.name == "New Activities" %}
-              <!-- <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">   -->
                 <p><i>{{section.description}}</i></p>
                   {% for activity in site.data.activities %}
                   <div class="media mt-2">
@@ -91,7 +90,6 @@ layout: default
                       <h5 class="mt-0"><a href="{{ activity.link }}" class="highlighted">{{ activity.name }}</a></h5>
                       {{ activity.description }}
                       {% if activity.tech %}
-                        <!-- <h6><mark><u>Technologies</u></mark></h6> -->
                          <br>
                         {% for tech in activity.tech %}
                         <span class="badge badge-secondary mr-1" style="background-color:{{ theme.projects-color }};">{{ tech }}</span>
@@ -101,7 +99,6 @@ layout: default
                   </div>
                   {% endfor %}
             {% elsif section.name == "Projects" %}
-              <!-- <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">   -->
                 <p><i>{{section.description}}</i></p>
                   {% for projects in site.data.projects %}
                   <div class="media mt-2">
@@ -120,7 +117,6 @@ layout: default
                   </div>
                   {% endfor %}
             {% elsif section.name == "Teaching" %}
-              <!-- <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">   -->
                 <p><i>{{section.description}}</i></p>
                     {% for courses in site.data.teaching %}
                     <div class="list-group">
@@ -136,7 +132,6 @@ layout: default
                     </div>
                     {% endfor %}
             {% else %}
-              <!-- <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">   -->
                 <h5 class="card-title text-center"><a href="/{{ section.url }}" class="highlighted">{{section.description}}</a></h5>
                 <p class="card-text">{{ section.content }} </p>              
           {% endif %}

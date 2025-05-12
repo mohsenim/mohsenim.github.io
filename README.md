@@ -1,13 +1,16 @@
+how to run in locally:
+
 bundle3.0 config set --local path 'vendor/bundle'
 
 bundle install
 
 bundle exec jekyll serve 
 
-
 To change background images for posts:
 add to the post: card: card-1 (or card-2 , ...)
 change related css in main.css 
+
+I remvoed bibliography which generate html from .bib file becasue it's not supported by Github.
 
 
 <!-- PROJECT LOGO -->
