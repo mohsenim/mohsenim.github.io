@@ -16,7 +16,7 @@ header-img:
 
 ### Freelance & Project Work
 
-*Sep 2023 – Present*
+*Feb 2023 – Present*
 
 #### Data Engineer – StEB Köln (Stadtentwässerungsbetriebe)
 
