@@ -1,3 +1,16 @@
+- name: Data Access Layer Abstraction with Apache Spark
+  id: acivity1
+  description: >
+    How do you build data processing systems that serve multiple customers with varying storage, compute, and scaling need, without rewriting your core logic each time? In this post, I show how Apache Spark can be used not just for large-scale data processing, but also as an abstraction layer for data access. This approach helps simplify architecture, isolate customer-specific differences, and reduce onboarding and maintenance costs, based on hands-on insights from real projects.
+  date: true
+  link: 2025/07/06/spark-data-access-layer.html
+  image:  assets/img/icons/medium.svg
+  tech: 
+    - spark
+    - pyspark
+    - object_relational_mapping
+    - SQLAlchemy 
+
 - name: Time Series Forecasting — Continuous Ranked Probability Score (CRPS)
   id: acivity1
   description: >
