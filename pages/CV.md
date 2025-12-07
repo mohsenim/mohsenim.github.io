@@ -16,7 +16,7 @@ header-img:
 
 ### Freelance & Project Work
 
-*Feb 2023 – Present*
+*Mar 2025 – Present*
 
 #### Data Engineer – StEB Köln (Stadtentwässerungsbetriebe)
 
@@ -27,6 +27,9 @@ header-img:
 * Developing backend services using a containerized microservices architecture.
 
 #### Data Scientist & ML Engineer – Snappfood
+
+*Oct 2023 – Feb 2025*
+
 
 * Leveraging large language models (LLM) and generative AI (GenAI) to improve customer relationships and interactions
 * Designing an LLM-based recommender system with query optimization via Retrieval Augmented Generation (RAG)
