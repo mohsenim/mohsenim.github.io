@@ -1,18 +1,17 @@
 ---
 layout: home
 title: 
-date: 2020-11-20 
+date: 2025-12-07 
 ---
-### Hi, I'm Mahdi 👋
+### Hi, Welcome!
 
-I'm a Machine Learning Specialist and Data Engineer focused on:
+I design, build, and operate AI, machine learning (ML), and data-driven systems, delivering end-to-end solutions for natural language processing, time series analysis, and large language models.
 
-- Extracting insights from complex data through analytical modeling  
-- Building data pipelines to deploy ML solutions at scale
+I have experience as a freelance Data Scientist and AI/ML Engineer, creating production-ready models, automated pipelines, and scalable deployment setups across different clients. My work emphasizes MLOps best practices, microservice-based architectures, and cloud-native solutions on Azure.
 
-My expertise includes machine learning, data engineering, and advanced deep learning, including Generative AI and LLMs. I have experience in text processing, time series analysis, and image-based ML workflows.
+Despite extensive experience in production systems, I maintain a junior mindset, always curious, always learning, and eager to explore new technologies.
 
-I share insights on [Medium](https://mohsenim.medium.com/), [LinkedIn](https://www.linkedin.com/in/mohsenim), and showcase projects on [GitHub](https://github.com/mohsenim).  
-This site connects all my work in one place.
+I share insights on [Medium](https://mohsenim.medium.com/), connect on [LinkedIn](https://www.linkedin.com/in/mohsenim), and publish code on [GitHub](https://github.com/mohsenim).
+This site brings all my work together in one place.
 
 [Contact Me](/contact.html)

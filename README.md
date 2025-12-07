@@ -1,5 +1,14 @@
 how to run in locally:
 
+sudo apt update
+sudo apt install -y ruby-full build-essential zlib1g-dev libssl-dev libreadline-dev libffi-dev libyaml-dev libxml2-dev libxslt1-dev make
+
+echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+---
+
+
 bundle3.0 config set --local path 'vendor/bundle'
 
 bundle install
@@ -41,9 +50,6 @@ I remvoed bibliography which generate html from .bib file becasue it's not suppo
 
 </div>
 
-[![Screenshot](https://raw.githubusercontent.com/tcbutler320/Jekyll-Theme-Dumbarton/dev/screenshot.png "Sample screenshot")](https://dumbarton.netlify.app/)
-
-[![Screenshot2](https://raw.githubusercontent.com/tcbutler320/Jekyll-Theme-Dumbarton/dev/screenshot2.png "Sample screenshot")](https://dumbarton.netlify.app/)
 
 ## Table of Contents
 

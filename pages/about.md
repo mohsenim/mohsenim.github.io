@@ -14,7 +14,7 @@ I'm a Machine Learning Specialist and Data Engineer focused on:
 * Extracting insights from complex data through analytical modeling
 * Building data pipelines to deploy ML solutions at scale
 
-My expertise spans machine learning, data engineering, and deep learning, including Generative AI and LLMs. I design and deploy intelligent systems for text, image, and time-series data using modern MLOps and DevOps practices.
+My expertise includes machine learning, data engineering, and deep learning, including Generative AI and LLMs. I design and deploy intelligent systems for text, image, and time-series data using MLOps and DevOps practices.
 
 With hands-on experience in research and product development, I’ve worked on time series analysis, anomaly detection, transformer-based models, long-text structuring, abstractive summarization, and end-to-end neural architectures. I'm also experienced in applying retrieval-augmented generation (RAG) for recommendation systems.
 
