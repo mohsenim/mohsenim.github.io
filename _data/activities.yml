@@ -1,3 +1,16 @@
+- name: GitLab Management MCP Agent
+  id: activity1
+  description: >
+    In our group, we use GitLab not only as our version-control tool but also for planning. However, adding and editing issues on the website involves many clicks, and the interface can be slow. So, I decided to build an agent to help us manage issues more efficiently.
+  date: true
+  link: /2026/01/31/gitlab-management-agent.html
+  image:  assets/img/icons/medium.svg
+  tech: 
+    - MCP_agent
+    - GitLab
+    - MCP
+    - Agent
+
 - name: Achieving Full Observability with the Grafana Ecosystem
   id: acivity1
   description: >
