@@ -3,8 +3,8 @@ layout: single
 title: "Publications"
 permalink: /publications/
 author_profile: false
-toc: true
-toc_label: "Contents"
+header:
+  overlay_color: "#00334e"
 ---
 
 ## Journal Articles

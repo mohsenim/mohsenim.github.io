@@ -3,6 +3,8 @@ layout: archive
 title: "Blog"
 permalink: /blog/
 author_profile: false
+header:
+  overlay_color: "#00334e"
 ---
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}

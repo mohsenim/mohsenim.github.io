@@ -7,3 +7,284 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+
+/* =============================================================
+   Custom styles
+   ============================================================= */
+
+// ---- Navigation bar: dark background -------------------------
+
+.masthead {
+  background-color: #00334e;
+  border-bottom: none;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.35);
+}
+
+.greedy-nav {
+  background: #00334e;
+
+  a {
+    color: rgba(255, 255, 255, 0.88);
+    &:hover { color: #fff; }
+  }
+
+  .site-title {
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+  }
+
+  .site-subtitle {
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .visible-links a::before {
+    background: rgba(255, 255, 255, 0.55);
+  }
+
+  &__toggle {
+    color: rgba(255, 255, 255, 0.88);
+  }
+
+  .hidden-links {
+    background: #002a3e;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+
+    &::before { border-color: rgba(255, 255, 255, 0.12) transparent; }
+    &::after  { border-color: #002a3e transparent; }
+
+    a {
+      color: rgba(255, 255, 255, 0.88);
+      &:hover {
+        color: #fff;
+        background: rgba(255, 255, 255, 0.08);
+      }
+    }
+  }
+}
+
+// hamburger icon bars
+.navicon,
+.navicon::before,
+.navicon::after {
+  background: rgba(255, 255, 255, 0.88);
+}
+
+.close .navicon { background: transparent; }
+
+
+// ---- Footer: dark to match nav --------------------------------
+
+.page__footer {
+  background: #00334e;
+  color: rgba(255, 255, 255, 0.65);
+
+  footer { color: rgba(255, 255, 255, 0.65); }
+
+  a {
+    color: rgba(255, 255, 255, 0.82);
+    &:hover { color: #fff; }
+  }
+}
+
+.page__footer-copyright {
+  color: rgba(255, 255, 255, 0.45);
+  font-size: 0.8em;
+}
+
+
+// ---- Page hero: interior pages get a tighter banner ----------
+
+.page__hero--overlay {
+  padding: 2em 0;
+
+  .page__title {
+    font-size: 1.8em;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    text-shadow: 0 1px 6px rgba(0, 0, 0, 0.45);
+  }
+
+  .page__lead {
+    font-size: 1em;
+    opacity: 0.88;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  }
+}
+
+
+// ---- Content typography improvements -------------------------
+
+.page__content {
+
+  h2 {
+    padding-bottom: 0.3em;
+    border-bottom: 2px solid #1a7fa6;
+    margin-top: 2.2em;
+    margin-bottom: 0.8em;
+    color: #1a7fa6;
+  }
+
+  h3 {
+    margin-top: 1.6em;
+    color: #333;
+  }
+
+  h4 {
+    margin-top: 1.2em;
+    font-weight: 600;
+    color: #444;
+  }
+
+  // horizontal rules between publication entries
+  hr {
+    border: none;
+    border-top: 1px solid #eee;
+    margin: 1.5em 0;
+  }
+}
+
+
+// ---- Blog archive listing: card-like rows -------------------
+
+.list__item {
+  .archive__item {
+    padding: 1.4em 0;
+    border-bottom: 1px solid #ebebeb;
+  }
+
+  &:last-child .archive__item {
+    border-bottom: none;
+  }
+}
+
+.archive__item-title {
+  margin-bottom: 0.25em;
+  font-size: 1.1em;
+
+  a { color: #1a7fa6; }
+}
+
+.archive__item-excerpt {
+  color: #555;
+  font-size: 0.92em;
+  margin-top: 0.3em;
+}
+
+
+// ---- Splash / home page feature row -------------------------
+
+.feature__wrapper {
+  border-top: 3px solid #1a7fa6;
+  padding-top: 2em;
+  margin-top: 1em;
+}
+
+.feature__item {
+  .archive__item-teaser img {
+    border-radius: 4px;
+  }
+
+  .btn--primary {
+    background-color: #1a7fa6;
+    border-color: #1a7fa6;
+    &:hover {
+      background-color: #156a8d;
+      border-color: #156a8d;
+    }
+  }
+}
+
+
+// ---- About page: profile card ------------------------------
+
+.profile-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+  padding: 2rem;
+  background: #f8f9fa;
+  border-left: 4px solid #1a7fa6;
+  border-radius: 4px;
+  margin-bottom: 2.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+    flex-shrink: 0;
+  }
+}
+
+.profile-card__info {
+  flex: 1;
+  min-width: 200px;
+
+  h2 {
+    margin-top: 0 !important;
+    margin-bottom: 0.2em !important;
+    border-bottom: none !important;
+    color: #00334e !important;  // deliberately keep dark: it's structural (name), not a section heading
+    font-size: 1.6em;
+  }
+
+  .profile-card__title {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 1.2em;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      padding: 0.3em 0;
+      color: #444;
+      font-size: 0.95em;
+
+      a { color: #1a7fa6; }
+      a:hover { text-decoration: underline; }
+
+      i {
+        width: 1.4em;
+        color: #1a7fa6;
+        opacity: 0.85;
+      }
+    }
+  }
+}
+
+
+// ---- Contact page: icon rows ------------------------------
+
+.contact-row {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid #efefef;
+  font-size: 0.97em;
+
+  &:last-child { border-bottom: none; }
+
+  .contact-row__icon {
+    font-size: 1.5em;
+    width: 2.2rem;
+    text-align: center;
+    color: #1a7fa6;
+    flex-shrink: 0;
+  }
+
+  strong { display: block; color: #333; margin-bottom: 0.15em; }
+  a { color: #1a7fa6; }
+  a:hover { text-decoration: underline; }
+}

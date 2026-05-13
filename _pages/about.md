@@ -3,15 +3,16 @@ layout: single
 title: "About"
 permalink: /about/
 author_profile: false
+header:
+  overlay_color: "#00334e"
 ---
 
-<div style="display: flex; align-items: flex-start; gap: 2.5rem; margin-bottom: 2.5rem; flex-wrap: wrap;">
-  <img src="/assets/images/bio-photo.jpg" alt="M. Mohseni"
-       style="width: 160px; height: 160px; border-radius: 50%; object-fit: cover; border: 2px solid #ddd; flex-shrink: 0;">
-  <div>
-    <h1 style="margin-top: 0; margin-bottom: 0.25em;">M. Mohseni, Ph.D.</h1>
-    <p style="font-size: 1.1em; color: #666; margin-bottom: 1.2em;">Machine Learning Specialist &amp; Data Engineer</p>
-    <ul style="list-style: none; padding: 0; margin: 0; line-height: 2.2;">
+<div class="profile-card">
+  <img src="/assets/images/bio-photo.jpg" alt="M. Mohseni">
+  <div class="profile-card__info">
+    <h2>M. Mohseni, Ph.D.</h2>
+    <p class="profile-card__title">Machine Learning Specialist &amp; Data Engineer</p>
+    <ul>
       <li><i class="fas fa-fw fa-map-marker-alt"></i>&ensp;Germany</li>
       <li><i class="fas fa-fw fa-envelope"></i>&ensp;<a href="mailto:kontakt@mohsenim.de">kontakt@mohsenim.de</a></li>
       <li><i class="fab fa-fw fa-github"></i>&ensp;<a href="https://github.com/mohsenim" target="_blank">github.com/mohsenim</a></li>
@@ -21,8 +22,6 @@ author_profile: false
     </ul>
   </div>
 </div>
-
----
 
 I'm a Machine Learning Specialist and Data Engineer focused on:
 

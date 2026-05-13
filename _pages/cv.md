@@ -3,8 +3,8 @@ layout: single
 title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: false
-toc: true
-toc_label: "Contents"
+header:
+  overlay_color: "#00334e"
 ---
 
 # M. Mohseni, Ph.D.
