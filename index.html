@@ -1,4 +1,40 @@
 ---
-layout: home
-author_profile: true
+layout: splash
+permalink: /
+hidden: true
+header:
+  overlay_color: "#00334e"
+  overlay_image: /assets/images/mm-home-page-feature.jpg
+  actions:
+    - label: "About Me"
+      url: "/about/"
+    - label: "View CV"
+      url: "/cv/"
+excerpt: >
+  Machine Learning Specialist & Data Engineer<br />
+  <small>Building intelligent systems from data ingestion to scalable deployment</small>
+feature_row:
+  - image_path: /assets/images/mm-customizable-feature.png
+    alt: "machine learning"
+    title: "Machine Learning & AI"
+    excerpt: "Designing and deploying ML solutions at scale — from transformer-based models and LLMs to time series analysis and anomaly detection."
+    url: "/about/"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
+  - image_path: /assets/images/mm-responsive-feature.png
+    alt: "data engineering"
+    title: "Data Engineering"
+    excerpt: "Building robust data pipelines from ingestion to delivery using Apache Spark, MLflow, Docker, and cloud platforms."
+    url: "/cv/"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
+  - image_path: /assets/images/mm-free-feature.png
+    alt: "research"
+    title: "Research & Publications"
+    excerpt: "Published research in NLP, text analysis, entropy measures, and computational linguistics at international venues."
+    url: "/publications/"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
 ---
+
+{% include feature_row %}
