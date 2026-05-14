@@ -1,5 +1,6 @@
 ---
 layout: single
+platform: medium
 author: "Mahdi Mohseni"
 title: "GitLab Management MCP Agent"
 date: 2026-01-31

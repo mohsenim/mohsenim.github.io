@@ -1,5 +1,6 @@
 ---
 layout: single
+platform: medium
 author: "Mahdi Mohseni"
 title: "From Exploration to Modeling: When ML Models Fail in Action — A Case Study"
 date: "2024-07-07"

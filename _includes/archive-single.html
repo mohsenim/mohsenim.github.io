@@ -11,6 +11,16 @@
   {% assign title = post.title %}
 {% endif %}
 
+{% comment %}Resolve the platform icon class, if any{% endcomment %}
+{% assign platform_icon = nil %}
+{% if post.platform == "medium" %}
+  {% assign platform_icon = "fab fa-medium" %}
+{% elsif post.platform == "linkedin" %}
+  {% assign platform_icon = "fab fa-linkedin" %}
+{% elsif post.platform == "github" %}
+  {% assign platform_icon = "fab fa-github" %}
+{% endif %}
+
 <div class="{{ include.type | default: 'list' }}__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"{% if post.locale %} lang="{{ post.locale }}"{% endif %}>
     {% if include.type == "grid" and teaser %}
@@ -18,14 +28,27 @@
         <img src="{{ teaser | relative_url }}" alt="">
       </div>
     {% endif %}
-    <h2 class="archive__item-title no_toc p-name" itemprop="headline">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a class="u-url" href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      {% else %}
-        <a class="u-url" href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+    {% if include.type != "grid" %}
+      {% if teaser or platform_icon %}
+        <div class="archive__item-thumb">
+          {% if teaser %}
+            <img src="{{ teaser | relative_url }}" alt="{{ title }}">
+          {% elsif platform_icon %}
+            <i class="{{ platform_icon }}" aria-hidden="true"></i>
+          {% endif %}
+        </div>
       {% endif %}
-    </h2>
-    {% include page__meta.html locale=locale type=include.type %}
-    {% if post.excerpt %}<p class="archive__item-excerpt p-summary" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+    {% endif %}
+    <div class="archive__item-body">
+      <h2 class="archive__item-title no_toc p-name" itemprop="headline">
+        {% if post.link %}
+          <a href="{{ post.link }}">{{ title }}</a> <a class="u-url" href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        {% else %}
+          <a class="u-url" href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+        {% endif %}
+      </h2>
+      {% include page__meta.html locale=locale type=include.type %}
+      {% if post.excerpt %}<p class="archive__item-excerpt p-summary" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+    </div>
   </article>
 </div>

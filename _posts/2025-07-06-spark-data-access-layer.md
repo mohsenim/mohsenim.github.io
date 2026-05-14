@@ -1,5 +1,6 @@
 ---
 layout: single
+platform: medium
 author: "Mahdi Mohseni"
 title: "Data Access Layer Abstraction with Apache Spark"
 date: 2025-07-06

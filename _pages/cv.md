@@ -5,6 +5,8 @@ permalink: /cv/
 author_profile: false
 header:
   overlay_color: "#00334e"
+  overlay_image: /assets/images/mm-home-page-feature.jpg
+  overlay_filter: "rgba(0, 51, 78, 0.72)"
 ---
 
 # M. Mohseni, Ph.D.

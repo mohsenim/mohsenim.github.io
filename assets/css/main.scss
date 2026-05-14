@@ -13,12 +13,19 @@ search: false
    Custom styles
    ============================================================= */
 
-// ---- Navigation bar: dark background -------------------------
+// ---- Page background: same blue-teal family as nav, not pure white ---
+
+html, body {
+  background-color: #f4f7fb;
+}
+
+
+// ---- Navigation bar: dark ----------------------------------------
 
 .masthead {
   background-color: #00334e;
   border-bottom: none;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.35);
+  box-shadow: none;   // removed: caused a dark band between nav and hero
 }
 
 .greedy-nav {
@@ -75,7 +82,7 @@ search: false
 .close .navicon { background: transparent; }
 
 
-// ---- Footer: dark to match nav --------------------------------
+// ---- Footer: dark to match nav -----------------------------------
 
 .page__footer {
   background: #00334e;
@@ -95,7 +102,7 @@ search: false
 }
 
 
-// ---- Page hero: interior pages get a tighter banner ----------
+// ---- Page hero: unified with nav, tight on interior pages --------
 
 .page__hero--overlay {
   padding: 2em 0;
@@ -104,60 +111,110 @@ search: false
     font-size: 1.8em;
     font-weight: 700;
     letter-spacing: 0.01em;
-    text-shadow: 0 1px 6px rgba(0, 0, 0, 0.45);
+    text-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
   }
 
   .page__lead {
     font-size: 1em;
     opacity: 0.88;
-    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+  }
+}
+
+// Centre the title/lead on every layout except the home splash page
+.layout--single,
+.layout--archive {
+  .page__hero--overlay .wrapper {
+    text-align: center;
   }
 }
 
 
-// ---- Content typography improvements -------------------------
+// ---- Content area: white card lifted off the blue-tinted body ----
+
+#main {
+  background: #fff;
+  box-shadow: 0 1px 16px rgba(0, 51, 78, 0.08);
+}
+
+
+// ---- Content typography -----------------------------------------
 
 .page__content {
 
   h2 {
-    padding-bottom: 0.3em;
-    border-bottom: 2px solid #1a7fa6;
     margin-top: 2.2em;
     margin-bottom: 0.8em;
     color: #1a7fa6;
+    // no border — the colour itself provides hierarchy
   }
 
   h3 {
     margin-top: 1.6em;
-    color: #333;
+    color: #2c4a5a;
   }
 
   h4 {
     margin-top: 1.2em;
     font-weight: 600;
-    color: #444;
+    color: #3d5566;
   }
 
-  // horizontal rules between publication entries
   hr {
     border: none;
-    border-top: 1px solid #eee;
-    margin: 1.5em 0;
+    border-top: 1px solid #e2eaf1;
+    margin: 1.8em 0;
   }
 }
 
 
-// ---- Blog archive listing: card-like rows -------------------
+// ---- Blog archive listing ----------------------------------------
 
 .list__item {
   .archive__item {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
     padding: 1.4em 0;
-    border-bottom: 1px solid #ebebeb;
+    border-bottom: 1px solid #e2eaf1;
   }
 
   &:last-child .archive__item {
     border-bottom: none;
   }
+}
+
+// left-side thumb: only rendered when teaser or platform icon is set
+.archive__item-thumb {
+  flex-shrink: 0;
+  width: 52px;
+  height: 52px;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #eef4f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1a7fa6;
+  font-size: 1.7em;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+}
+
+// Medium brand colour
+.archive__item-thumb .fa-medium      { color: #000; }
+// LinkedIn brand colour
+.archive__item-thumb .fa-linkedin    { color: #0077b5; }
+
+// text area grows to fill remaining space
+.archive__item-body {
+  flex: 1;
+  min-width: 0;
 }
 
 .archive__item-title {
@@ -168,18 +225,18 @@ search: false
 }
 
 .archive__item-excerpt {
-  color: #555;
+  color: #556575;
   font-size: 0.92em;
   margin-top: 0.3em;
 }
 
 
-// ---- Splash / home page feature row -------------------------
+// ---- Home page feature row ---------------------------------------
 
 .feature__wrapper {
-  border-top: 3px solid #1a7fa6;
-  padding-top: 2em;
-  margin-top: 1em;
+  // no top border — white card background provides natural separation
+  padding-top: 1.5em;
+  margin-top: 0;
 }
 
 .feature__item {
@@ -198,7 +255,7 @@ search: false
 }
 
 
-// ---- About page: profile card ------------------------------
+// ---- About page: profile card ------------------------------------
 
 .profile-card {
   display: flex;
@@ -206,11 +263,10 @@ search: false
   gap: 2.5rem;
   flex-wrap: wrap;
   padding: 2rem;
-  background: #f8f9fa;
-  border-left: 4px solid #1a7fa6;
-  border-radius: 4px;
+  background: #eef4f9;          // same blue-teal family, slightly deeper than body
+  border-radius: 6px;
   margin-bottom: 2.5rem;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  box-shadow: 0 2px 12px rgba(0, 51, 78, 0.1);
 
   img {
     width: 150px;
@@ -218,7 +274,7 @@ search: false
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid #fff;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+    box-shadow: 0 2px 12px rgba(0, 51, 78, 0.18);
     flex-shrink: 0;
   }
 }
@@ -231,13 +287,13 @@ search: false
     margin-top: 0 !important;
     margin-bottom: 0.2em !important;
     border-bottom: none !important;
-    color: #00334e !important;  // deliberately keep dark: it's structural (name), not a section heading
+    color: #00334e !important;
     font-size: 1.6em;
   }
 
   .profile-card__title {
     font-size: 1em;
-    color: #555;
+    color: #4a6070;
     margin-bottom: 1.2em;
   }
 
@@ -248,7 +304,7 @@ search: false
 
     li {
       padding: 0.3em 0;
-      color: #444;
+      color: #3d5566;
       font-size: 0.95em;
 
       a { color: #1a7fa6; }
@@ -264,14 +320,14 @@ search: false
 }
 
 
-// ---- Contact page: icon rows ------------------------------
+// ---- Contact page: icon rows -------------------------------------
 
 .contact-row {
   display: flex;
   align-items: center;
   gap: 1.2rem;
   padding: 1rem 0;
-  border-bottom: 1px solid #efefef;
+  border-bottom: 1px solid #e2eaf1;
   font-size: 0.97em;
 
   &:last-child { border-bottom: none; }
@@ -284,7 +340,7 @@ search: false
     flex-shrink: 0;
   }
 
-  strong { display: block; color: #333; margin-bottom: 0.15em; }
+  strong { display: block; color: #2c4a5a; margin-bottom: 0.15em; }
   a { color: #1a7fa6; }
   a:hover { text-decoration: underline; }
 }

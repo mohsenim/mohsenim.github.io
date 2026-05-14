@@ -1,5 +1,6 @@
 ---
 layout: single
+platform: medium
 author: "Mahdi Mohseni"
 title: "Time Series Forecasting - Quantile Forecasting - Quantile Loss"
 date: 2025-02-11
