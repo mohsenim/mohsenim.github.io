@@ -1,0 +1,61 @@
+- name: GitLab Management MCP Agent
+  description: >
+    In our group, we use GitLab not only as our version-control tool but also for planning.
+    Adding and editing issues on the website involves many clicks and a slow interface, so I
+    built an MCP agent to manage issues more efficiently.
+  link: /gitlab-management-agent/
+  image: /assets/images/medium.svg
+  tech:
+    - MCP Agent
+    - GitLab
+    - MCP
+
+- name: Achieving Full Observability with the Grafana Ecosystem
+  description: >
+    Reaching a coherent, end-to-end observability architecture using the Grafana ecosystem is
+    nontrivial. This post summarises the tooling and architecture I selected to build a fully
+    open-source observability stack while keeping the option to move to Grafana Cloud.
+  link: /full-observability-grafana/
+  image: /assets/images/linkedin.png
+  tech:
+    - Logging
+    - Monitoring
+    - Grafana
+    - OpenTelemetry
+    - Tracing
+
+- name: Data Access Layer Abstraction with Apache Spark
+  description: >
+    How do you build data processing systems that serve multiple customers with varying storage,
+    compute, and scaling needs without rewriting your core logic each time? I show how Apache
+    Spark can be used as an abstraction layer for data access.
+  link: /spark-data-access-layer/
+  image: /assets/images/medium.svg
+  tech:
+    - Spark
+    - PySpark
+    - SQLAlchemy
+
+- name: Time Series Forecasting — Continuous Ranked Probability Score (CRPS)
+  description: >
+    Many forecasting models treat over- and under-predictions the same. In practice the stakes
+    often differ. I walk through parametric probabilistic models and introduce CRPS — a loss
+    function designed for training them.
+  link: /crps/
+  image: /assets/images/medium.svg
+  tech:
+    - Time Series
+    - CRPS
+    - Loss Function
+
+- name: Time Series Forecasting — Quantile Forecasting — Quantile Loss
+  description: >
+    Traditional forecasting treats over- and under-predictions equally, but real-world costs
+    can differ significantly. Quantile forecasting addresses this by estimating confidence
+    intervals, offering a nuanced view of uncertainty.
+  link: /quantile-loss/
+  image: /assets/images/medium.svg
+  tech:
+    - Time Series
+    - Quantile Regression
+    - Quantile Loss

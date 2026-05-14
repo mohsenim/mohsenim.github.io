@@ -1,6 +1,7 @@
 ---
 layout: single
-platform: medium
+header:
+  teaser: /assets/images/linkedin.png
 author: "Mahdi Mohseni"
 title: "Achieving Full Observability with the Grafana Ecosystem"
 date: 2025-12-07

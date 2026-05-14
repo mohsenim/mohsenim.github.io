@@ -1,6 +1,7 @@
 ---
 layout: single
-platform: medium
+header:
+  teaser: /assets/images/medium.svg
 author: "Mahdi Mohseni"
 title: "Logging Datasets in Machine Learning Experiments with MLflow"
 date: "2025-01-26"

@@ -1,0 +1,23 @@
+<section class="recent-activities">
+  <h2 class="recent-activities__heading">Recent Activities</h2>
+  {% for activity in site.data.activities %}
+  <div class="activity-item">
+    <a href="{{ activity.link | relative_url }}" class="activity-item__icon">
+      <img src="{{ activity.image | relative_url }}" alt="{{ activity.name }}">
+    </a>
+    <div class="activity-item__body">
+      <h3 class="activity-item__title">
+        <a href="{{ activity.link | relative_url }}">{{ activity.name }}</a>
+      </h3>
+      <p class="activity-item__desc">{{ activity.description }}</p>
+      {% if activity.tech %}
+      <div class="activity-item__tags">
+        {% for tag in activity.tech %}
+        <span class="activity-tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</section>
