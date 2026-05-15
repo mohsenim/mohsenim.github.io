@@ -10,118 +10,151 @@ search: false
 
 
 /* =============================================================
-   Custom styles
+   Custom styles — Navy & Gold theme
    ============================================================= */
 
-// ---- Page background: same blue-teal family as nav, not pure white ---
+// ---- Google Fonts -------------------------------------------
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap');
+
+// ---- Design tokens ------------------------------------------
+
+:root {
+  --navy:        #0f1f2e;
+  --navy-mid:    #1a3347;
+  --navy-light:  #2a4a63;
+  --gold:        #b8965a;
+  --gold-light:  #d4b07a;
+  --off-white:   #f7f4ef;
+  --warm-gray:   #e8e3da;
+  --text-muted:  #8a8078;
+  --text-dark:   #1a1410;
+  --serif: 'Cormorant Garamond', Georgia, serif;
+  --sans:  'DM Sans', system-ui, sans-serif;
+}
+
+// ---- Base ---------------------------------------------------
 
 html, body {
-  background-color: #f4f7fb;
+  background-color: var(--off-white);
+  font-family: var(--sans);
 }
 
 
-// ---- Navigation bar: dark ----------------------------------------
+// ---- Navigation bar: frosted glass --------------------------
 
 .masthead {
-  background-color: #00334e;
-  border-bottom: none;
-  box-shadow: none;   // removed: caused a dark band between nav and hero
+  background: rgba(247, 244, 239, 0.93);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(184, 150, 90, 0.22);
+  box-shadow: none;
 }
 
 .greedy-nav {
-  background: #00334e;
+  background: transparent;
 
   a {
-    color: rgba(255, 255, 255, 0.88);
-    &:hover { color: #fff; }
+    color: var(--navy-mid);
+    font-size: 0.78rem;
+    font-weight: 400;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    &:hover { color: var(--gold); }
   }
 
   .site-title {
-    color: #fff;
-    font-weight: 700;
-    letter-spacing: 0.03em;
+    font-family: var(--serif);
+    font-size: 1.35rem;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    color: var(--navy);
+    text-transform: none;
   }
 
   .site-subtitle {
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--text-muted);
   }
 
   .visible-links a::before {
-    background: rgba(255, 255, 255, 0.55);
+    background: var(--gold);
   }
 
   &__toggle {
-    color: rgba(255, 255, 255, 0.88);
+    color: var(--navy);
   }
 
   .hidden-links {
-    background: #002a3e;
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+    background: var(--off-white);
+    border: 1px solid rgba(184, 150, 90, 0.25);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 
-    &::before { border-color: rgba(255, 255, 255, 0.12) transparent; }
-    &::after  { border-color: #002a3e transparent; }
+    &::before { border-color: rgba(184, 150, 90, 0.25) transparent; }
+    &::after  { border-color: var(--off-white) transparent; }
 
     a {
-      color: rgba(255, 255, 255, 0.88);
+      color: var(--navy-mid);
       &:hover {
-        color: #fff;
-        background: rgba(255, 255, 255, 0.08);
+        color: var(--gold);
+        background: rgba(184, 150, 90, 0.06);
       }
     }
   }
 }
 
-// hamburger icon bars
+// hamburger bars (dark on frosted-glass nav)
 .navicon,
 .navicon::before,
 .navicon::after {
-  background: rgba(255, 255, 255, 0.88);
+  background: var(--navy);
 }
 
 .close .navicon { background: transparent; }
 
 
-// ---- Footer: dark to match nav -----------------------------------
+// ---- Footer: near-black -------------------------------------
 
 .page__footer {
-  background: #00334e;
-  color: rgba(255, 255, 255, 0.65);
+  background: var(--text-dark);
+  color: rgba(247, 244, 239, 0.5);
 
-  footer { color: rgba(255, 255, 255, 0.65); }
+  footer { color: rgba(247, 244, 239, 0.5); }
 
   a {
-    color: rgba(255, 255, 255, 0.82);
-    &:hover { color: #fff; }
+    color: rgba(247, 244, 239, 0.62);
+    &:hover { color: var(--gold); }
   }
 }
 
 .page__footer-copyright {
-  color: rgba(255, 255, 255, 0.45);
-  font-size: 0.8em;
+  color: rgba(247, 244, 239, 0.28);
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
 }
 
 
-// ---- Page hero: unified with nav, tight on interior pages --------
+// ---- Page hero: deep navy -----------------------------------
 
 .page__hero--overlay {
   padding: 2em 0;
 
   .page__title {
-    font-size: 1.8em;
-    font-weight: 700;
-    letter-spacing: 0.01em;
+    font-family: var(--serif);
+    font-size: clamp(1.8rem, 3vw, 2.8rem);
+    font-weight: 300;
+    letter-spacing: 0.02em;
     text-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
   }
 
   .page__lead {
     font-size: 1em;
-    opacity: 0.88;
+    font-weight: 300;
+    opacity: 0.72;
     text-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
   }
 }
 
-// Centre the title/lead on every layout except the home splash page
+// Centre title/lead on interior pages only
 .layout--single,
 .layout--archive {
   .page__hero--overlay .wrapper {
@@ -130,45 +163,96 @@ html, body {
 }
 
 
-// ---- Content area: white card lifted off the blue-tinted body ----
+// ---- Content card -------------------------------------------
 
 #main {
   background: #fff;
-  box-shadow: 0 1px 16px rgba(0, 51, 78, 0.08);
+  box-shadow: 0 1px 24px rgba(15, 31, 46, 0.06);
 }
 
 
-// ---- Content typography -----------------------------------------
+// ---- Typography ---------------------------------------------
+
+body,
+.page__content,
+.page__meta {
+  font-family: var(--sans);
+}
 
 .page__content {
 
   h2 {
-    margin-top: 2.2em;
+    font-family: var(--serif);
+    font-size: 1.65rem;
+    font-weight: 400;
+    margin-top: 2.5em;
     margin-bottom: 0.8em;
-    color: #1a7fa6;
-    // no border — the colour itself provides hierarchy
+    color: var(--navy);
+    border-bottom: 1px solid var(--warm-gray);
+    padding-bottom: 0.4em;
   }
 
   h3 {
-    margin-top: 1.6em;
-    color: #2c4a5a;
+    font-family: var(--serif);
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-top: 1.8em;
+    color: var(--navy);
   }
 
   h4 {
+    font-family: var(--sans);
+    font-size: 0.85rem;
+    font-weight: 500;
+    letter-spacing: 0.03em;
     margin-top: 1.2em;
-    font-weight: 600;
-    color: #3d5566;
+    color: var(--navy-mid);
   }
 
   hr {
     border: none;
-    border-top: 1px solid #e2eaf1;
-    margin: 1.8em 0;
+    border-top: 1px solid var(--warm-gray);
+    margin: 2em 0;
+  }
+
+  a {
+    color: var(--gold);
+    &:hover { color: var(--gold-light); text-decoration: underline; }
+  }
+
+  p, li {
+    color: #3d4a5c;
+    line-height: 1.85;
   }
 }
 
 
-// ---- Blog archive listing ----------------------------------------
+// ---- Section eyebrow label ----------------------------------
+
+.section-eyebrow {
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 0.6rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+
+  &::before {
+    content: '';
+    display: block;
+    width: 24px;
+    height: 1px;
+    background: var(--gold);
+    flex-shrink: 0;
+  }
+}
+
+
+// ---- Blog archive listing -----------------------------------
 
 .list__item {
   .archive__item {
@@ -176,7 +260,7 @@ html, body {
     align-items: center;
     gap: 1.5rem;
     padding: 1.4em 0;
-    border-bottom: 1px solid #e2eaf1;
+    border-bottom: 1px solid var(--warm-gray);
   }
 
   &:last-child .archive__item {
@@ -184,15 +268,16 @@ html, body {
   }
 }
 
-// left-side thumb — only rendered when a teaser image is set
+// left-side thumb
 .archive__item-thumb {
   flex-shrink: 0;
   width: 72px;
   height: 72px;
-  border-radius: 10px;
+  border-radius: 6px;
   overflow: hidden;
   background: #fff;
-  box-shadow: 0 2px 8px rgba(0, 51, 78, 0.12);
+  border: 1px solid var(--warm-gray);
+  box-shadow: 0 2px 8px rgba(15, 31, 46, 0.08);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -206,14 +291,31 @@ html, body {
   }
 }
 
-// text area grows to fill remaining space
 .archive__item-body {
   flex: 1;
   min-width: 0;
 }
 
+.archive__item-title {
+  margin-bottom: 0.25em;
 
-// ---- Recent activities section (home page) ----------------------
+  a {
+    font-family: var(--serif);
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--navy);
+    &:hover { color: var(--gold); }
+  }
+}
+
+.archive__item-excerpt {
+  color: var(--text-muted);
+  font-size: 0.88em;
+  margin-top: 0.3em;
+}
+
+
+// ---- Recent activities section (home page) ------------------
 
 .recent-activities {
   max-width: 900px;
@@ -222,12 +324,13 @@ html, body {
 }
 
 .recent-activities__heading {
-  font-size: 1.5em;
-  font-weight: 700;
-  color: #00334e;
+  font-family: var(--serif);
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: var(--navy);
   margin-bottom: 1.8rem;
   padding-bottom: 0.4rem;
-  border-bottom: 2px solid #1a7fa6;
+  border-bottom: 1px solid var(--warm-gray);
 }
 
 .activity-item {
@@ -235,7 +338,7 @@ html, body {
   align-items: flex-start;
   gap: 1.4rem;
   padding: 1.4rem 0;
-  border-bottom: 1px solid #e2eaf1;
+  border-bottom: 1px solid var(--warm-gray);
 
   &:last-child { border-bottom: none; }
 }
@@ -244,16 +347,17 @@ html, body {
   flex-shrink: 0;
   width: 68px;
   height: 68px;
-  border-radius: 10px;
+  border-radius: 6px;
   background: #fff;
-  box-shadow: 0 2px 8px rgba(0, 51, 78, 0.12);
+  border: 1px solid var(--warm-gray);
+  box-shadow: 0 2px 8px rgba(15, 31, 46, 0.08);
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 8px;
   transition: box-shadow 0.2s;
 
-  &:hover { box-shadow: 0 4px 16px rgba(0, 51, 78, 0.2); }
+  &:hover { box-shadow: 0 4px 16px rgba(15, 31, 46, 0.15); }
 
   img {
     width: 100%;
@@ -268,22 +372,23 @@ html, body {
 }
 
 .activity-item__title {
-  font-size: 1.05em;
-  font-weight: 600;
+  font-family: var(--serif);
+  font-size: 1.15rem;
+  font-weight: 400;
   margin: 0 0 0.4rem;
 
   a {
-    color: #00334e;
+    color: var(--navy);
     text-decoration: none;
-    &:hover { color: #1a7fa6; text-decoration: underline; }
+    &:hover { color: var(--gold); }
   }
 }
 
 .activity-item__desc {
-  font-size: 0.92em;
-  color: #4a6070;
+  font-size: 0.88rem;
+  color: var(--text-muted);
   margin: 0 0 0.7rem;
-  line-height: 1.55;
+  line-height: 1.65;
 }
 
 .activity-item__tags {
@@ -294,54 +399,52 @@ html, body {
 
 .activity-tag {
   display: inline-block;
-  padding: 0.2em 0.65em;
-  font-size: 0.75em;
+  padding: 0.18rem 0.6rem;
+  font-size: 0.68rem;
   font-weight: 500;
-  border-radius: 20px;
-  background: #eef4f9;
-  color: #1a7fa6;
-  border: 1px solid #c8dff0;
-}
-
-.archive__item-title {
-  margin-bottom: 0.25em;
-  font-size: 1.1em;
-
-  a { color: #1a7fa6; }
-}
-
-.archive__item-excerpt {
-  color: #556575;
-  font-size: 0.92em;
-  margin-top: 0.3em;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  border-radius: 2px;
+  background: rgba(184, 150, 90, 0.1);
+  color: var(--gold);
+  border: 1px solid rgba(184, 150, 90, 0.3);
 }
 
 
-// ---- Home page feature row ---------------------------------------
+// ---- Home page feature row ----------------------------------
 
 .feature__wrapper {
-  // no top border — white card background provides natural separation
+  border-top: none;
   padding-top: 1.5em;
   margin-top: 0;
 }
 
 .feature__item {
+  .archive__item-title {
+    font-family: var(--serif);
+    a { color: var(--navy); }
+  }
+
   .archive__item-teaser img {
     border-radius: 4px;
   }
 
   .btn--primary {
-    background-color: #1a7fa6;
-    border-color: #1a7fa6;
+    background-color: var(--navy);
+    border-color: var(--navy);
+    font-size: 0.78rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
     &:hover {
-      background-color: #156a8d;
-      border-color: #156a8d;
+      background-color: var(--gold);
+      border-color: var(--gold);
+      color: var(--navy);
     }
   }
 }
 
 
-// ---- About page: profile card ------------------------------------
+// ---- About page: profile card -------------------------------
 
 .profile-card {
   display: flex;
@@ -349,10 +452,10 @@ html, body {
   gap: 2.5rem;
   flex-wrap: wrap;
   padding: 2rem;
-  background: #eef4f9;          // same blue-teal family, slightly deeper than body
-  border-radius: 6px;
+  background: var(--warm-gray);
+  border-radius: 4px;
   margin-bottom: 2.5rem;
-  box-shadow: 0 2px 12px rgba(0, 51, 78, 0.1);
+  box-shadow: 0 2px 12px rgba(15, 31, 46, 0.08);
 
   img {
     width: 150px;
@@ -360,7 +463,7 @@ html, body {
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid #fff;
-    box-shadow: 0 2px 12px rgba(0, 51, 78, 0.18);
+    box-shadow: 0 2px 12px rgba(15, 31, 46, 0.15);
     flex-shrink: 0;
   }
 }
@@ -373,13 +476,16 @@ html, body {
     margin-top: 0 !important;
     margin-bottom: 0.2em !important;
     border-bottom: none !important;
-    color: #00334e !important;
-    font-size: 1.6em;
+    color: var(--navy) !important;
+    font-size: 1.8rem !important;
+    font-weight: 300 !important;
+    padding-bottom: 0 !important;
   }
 
   .profile-card__title {
-    font-size: 1em;
-    color: #4a6070;
+    font-size: 0.88rem;
+    color: var(--text-muted);
+    letter-spacing: 0.05em;
     margin-bottom: 1.2em;
   }
 
@@ -390,43 +496,43 @@ html, body {
 
     li {
       padding: 0.3em 0;
-      color: #3d5566;
-      font-size: 0.95em;
+      color: var(--navy-mid);
+      font-size: 0.9rem;
 
-      a { color: #1a7fa6; }
+      a { color: var(--gold); }
       a:hover { text-decoration: underline; }
 
       i {
         width: 1.4em;
-        color: #1a7fa6;
-        opacity: 0.85;
+        color: var(--gold);
+        opacity: 0.9;
       }
     }
   }
 }
 
 
-// ---- Contact page: icon rows -------------------------------------
+// ---- Contact page: icon rows --------------------------------
 
 .contact-row {
   display: flex;
   align-items: center;
   gap: 1.2rem;
   padding: 1rem 0;
-  border-bottom: 1px solid #e2eaf1;
-  font-size: 0.97em;
+  border-bottom: 1px solid var(--warm-gray);
+  font-size: 0.95rem;
 
   &:last-child { border-bottom: none; }
 
   .contact-row__icon {
-    font-size: 1.5em;
+    font-size: 1.4rem;
     width: 2.2rem;
     text-align: center;
-    color: #1a7fa6;
+    color: var(--gold);
     flex-shrink: 0;
   }
 
-  strong { display: block; color: #2c4a5a; margin-bottom: 0.15em; }
-  a { color: #1a7fa6; }
+  strong { display: block; color: var(--navy); margin-bottom: 0.15em; font-weight: 500; }
+  a { color: var(--gold); }
   a:hover { text-decoration: underline; }
 }

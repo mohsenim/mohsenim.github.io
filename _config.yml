@@ -17,16 +17,16 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 direction                : # "ltr" (default), "rtl" # set the direction of the page
-title                    : "M. Mohseni"
+title                    : "MOHSENIM"
 title_separator          : "-"
-subtitle                 : "Machine Learning & Data Engineering"
+subtitle                 : "mohsenim.de"
 name                     : "M. Mohseni"
 description              : "Mahdi Mohseni's personal website — Machine Learning Specialist & Data Engineer"
 url                      : "https://mohsenim.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "mohsenim/mohsenim.github.io"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+teaser                   : "/assets/images/500x300.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : "/assets/images/176x176.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200

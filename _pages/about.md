@@ -4,9 +4,9 @@ title: "About"
 permalink: /about/
 author_profile: false
 header:
-  overlay_color: "#00334e"
-  overlay_image: /assets/images/mm-home-page-feature.jpg
-  overlay_filter: "rgba(0, 51, 78, 0.72)"
+  overlay_color: "#0f1f2e"
+  overlay_image: #/assets/images/mm-home-page-feature.jpg
+  overlay_filter: "rgba(15, 31, 46, 0.75)"
 ---
 
 <div class="profile-card">

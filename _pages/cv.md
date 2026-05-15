@@ -4,184 +4,181 @@ title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: false
 header:
-  overlay_color: "#00334e"
-  overlay_image: /assets/images/mm-home-page-feature.jpg
-  overlay_filter: "rgba(0, 51, 78, 0.72)"
+  overlay_color: "#0f1f2e"
+  overlay_image: # /assets/images/mm-home-page-feature.jpg
+  overlay_filter: "rgba(15, 31, 46, 0.75)"
 ---
 
-# M. Mohseni, Ph.D.
+# Machine Learning & MLOps Engineer
 
-*Machine Learning Specialist & Data Engineer*
+## 💼 Professional Experience
 
-## Experiences
+### Lead Data Engineer / MLOps Engineer (Time-Series & Streaming Systems)
 
-### Freelance & Project Work
+**MOcons GmbH & Co. KG** | **Hochschule Ruhr West**
 
-*Mar 2025 – Present*
-
-#### Data Engineer – StEB Köln (Stadtentwässerungsbetriebe)
-
-* Building a system for anomaly detection and data quality improvement on time series data.
-* Designing and implementing end-to-end data pipelines, from ingestion to result delivery.
-* Leveraging Apache Spark for processing large-scale datasets.
-* Managing and tracking ML models using MLflow.
-* Developing backend services using a containerized microservices architecture.
-
-#### Data Scientist & ML Engineer – Snappfood
-
-*Oct 2023 – Feb 2025*
-
-* Leveraging large language models (LLM) and generative AI (GenAI) to improve customer relationships and interactions
-* Designing an LLM-based recommender system with query optimization via Retrieval Augmented Generation (RAG)
-* Optimizing Customer Relationship Management (CRM) operations using language analysis and NLP techniques
-* Fine-tuning AI models using a tailored instruction dataset to improve performance and accuracy
-
-### ML Researcher and Developer, Friedrich Schiller University Jena
-
-*Jan 2019 – Sep 2023*
-
-* R&D project in the field of text and image analysis with machine learning
-* Development of machine learning models for classification and clustering of text and image datasets
-* Time series, long-range correlations, and unpredictability analysis
-* Structural analysis of long texts
-* Implementation of MLOps and development of transformer-based DNN
-
-### ML Research and Developer, Heidelberg Institute for Theoretical Studies (HITS)
-
-*Jan 2018 – Dec 2018*
-
-* Development of neural models (GenAI, LSTM, Tree-LSTM, and end-to-end neural models)
-* Implementation of reinforcement learning in neural models
-* Research and development of generative models for abstractive text summarization
-
-### ML Scientist, Intelligent Information System Lab
-
-*Sep 2016 – Dec 2017*
-
-* Project Manager
-* Management, monitoring, and coordination of the "Named Entity Recognition" (NER) project
-* Supervision and goal-oriented collaboration with the development team
-* Programming with Java
-* Implementation of machine learning models for text analysis as main components of a search engine for the Persian language
-
-### Developer and Machine Learning Engineer, Mobin Information Technology Research Center
-
-*Jan 2014 – Aug 2016*
-
-* Head of Text Processing Team
-* Development of analysis modules for the automatic extraction of entities and relationship extraction from news texts, news clustering, and recommendations
-
-### Developer and Data Analyst, Computational Linguistics Lab, University of Tehran
-
-*May 2008 – Sep 2013*
-
-* Development of core language processing modules for the Persian Language
-* Developing and analyzing textual linguistic corpora
-* Development of systems for semi-supervised annotation of linguistic data
+* Designed and engineered a core backend microservice infrastructure for real-time time-series anomaly detection and clustering deployed for major German utility and environmental organizations including StEB Köln, RWW, LANUV NRW, EGLV, and Bitcontrol.
+* Designed and implemented a Kafka / Kafka Streams event-driven streaming architecture processing up to **1,100 concurrent time-series streams** with sampling frequencies from 1 to 15 minutes.
+* Built scalable pipelines for real-time ingestion, historical reprocessing, and long-term backfilling (up to 15 years of data).
+* Implemented ML lifecycle management and model tracking using **MLflow**.
+* Designed hybrid orchestration systems to manage decoupled streaming and batch data workloads.
 
 ---
 
-## Education
+### Data Scientist & ML Engineer
 
-* **Ph.D. in Computational Language Processing**, Friedrich-Schiller-Universität Jena
+**Snappfood** | Oct 2023 – Feb 2025
 
-* **M.S. in Artificial Intelligence and Robotics**, Iran University of Science and Technology
-
----
-
-## Projects
-
-* **[Local-RAG: Retrieval-Augmented Generation (RAG) for Querying Local Documents](https://github.com/mohsenim/Local-RAG-with-LangChain-and-Chroma)**
-  Implementing RAG to query local documents using LangChain, Chroma, and LLMs
-
-* **[Customized Full-Stack FastAPI Template for Deployment on Container Services](https://github.com/mohsenim/FastAPI-Backend-Frontend-Azure)**
-  A FastAPI backend and frontend template customized for seamless deployment in container environments
-
-* **[BentoML: Serving and Deploying Machine Learning Models](https://github.com/mohsenim/BentoMl-Deploy-Docker)**
-  Packaging machine learning models with BentoML for deployment as REST APIs and Docker images
-
-* **[MLflow: Tracking Machine Learning Experiments and Deployment](https://github.com/mohsenim/MLflow-XGBoost-Docker)**
-  Tracking and monitoring machine learning experiments with MLflow, hyperparameter optimization, and Dockerizing trained models
-
-* **[Text2Image-NN-Classifier: Fractal Analysis and Classification of Long Texts](https://github.com/mohsenim/Text-Image-NN-Classifier)**
-  A cross-domain analysis project that leverages pre-trained deep neural models designed for image processing to analyze long texts
-
-* **[Sequence-Labeling-fastai: Document-Level Sequence Labeling Using fastai](https://github.com/mohsenim/Sequence-Labeling-fastai)**
-  Implementation of a sequence labeling on top of a language model that seamlessly processes entire documents without splitting text into separated chunks and memory constraints
-
-* **MorphoBERT: An NER System Based on the BERT Neural Model**
-  Acclaimed as the top-performing system in the shared-task competition on NLP Solutions for Under-Resourced Languages
-
-* **[Persianp: A Text Processing Toolbox](https://github.com/mohsenim/persianp)**
-  A text processing toolbox developed in Java that implements a pipeline for core processes such as tokenization, lemmatization, POS tagging, and noun phrase chunking
+* Developed LLM-based systems for customer support automation and CRM enhancement.
+* Built retrieval-augmented generation (RAG) pipelines for recommendation and query optimization.
+* Applied NLP techniques for intent extraction and behavioral modeling.
+* Fine-tuned transformer models using domain-specific instruction datasets.
 
 ---
 
-## Cloud Certifications / Programs
+### ML Researcher & Developer
 
-* **Azure Data Scientist Associate**, 2025 — *Certificate ID: 16239424394F1BB5*
-* **Microsoft Azure AI Fundamentals**, 2024 — *Certificate ID: 3BEC9E202509659B*
-* **Microsoft Azure Fundamentals**, 2024 — *Certificate ID: 95247956A57FBD66*
-* **Developing Solutions for Microsoft Azure**, 2024
-* **Designing and Implementing an Azure AI Solution**, 2024
+**Friedrich Schiller University Jena** | Jan 2019 – Sep 2023
 
----
-
-## Publications
-
-### Journal Articles
-
-* **Comparative Analysis of Preference in Contemporary and Earlier Texts Using Entropy Measures**
-  *M. Mohseni, C. Redies, and V. Gast* — *Entropy, 2023*
-
-* **Approximate Entropy in Canonical and Non-Canonical Fiction**
-  *M. Mohseni, C. Redies, and V. Gast* — *Entropy, 2022*
-
-* **Fractality and Variability in Canonical and Non-Canonical English Fiction and in Non-Fictional Texts**
-  *M. Mohseni, C. Redies, and V. Gast* — *Frontiers in Psychology, 2021*
-
-* **Global Image Properties Predict Ratings of Affective Pictures**
-  *C. Redies, M. Grebenkina, M. Mohseni, A. Kaduhm, and C. Dobel* — *Frontiers in Psychology, 2020*
-
-* **PEYMA: An Annotated Corpus for Persian Named Entities**
-  *M. Shahshahani, M. Mohseni, A. Shakery, and H. Faili* — *Signal and Data Processing, 2019*
-
-### Proceedings
-
-* **Title Generation and Keyphrase Extraction from Persian Scientific Texts**
-  *M. Mohseni and H. Faili* — *25th International Computer Conference, Computer Society of Iran, 2020*
-
-* **MorphoBERT: A Persian NER System with BERT and Morphological Analysis**
-  *M. Mohseni and A. Tebbifakhr* — *Workshop on NLP Solutions for Under-Resourced Languages co-located with ICNLSP, 2019*
-
-* **A Conceptual Framework for Clone Detection Using Machine Learning**
-  *J. Ghofrani, M. Mohseni, and A. Bozorgmehr* — *IEEE 4th International Conference on Knowledge-Based Engineering and Innovation, 2019*
-
-* **Topic Modeling Based Analysis of Professors' Roles in Directing Theses**
-  *M. Mohseni and H. Faili* — *18th International Conference on Intelligent Text Processing and Computational Linguistics, 2017*
+* Developed deep learning models for cross-domain text and image analysis.
+* Designed transformer-based architectures for document classification, clustering, and structural modeling.
+* Conducted research in long-range dependency modeling and time-series behavior in textual data.
+* Built reproducible ML experimentation pipelines.
 
 ---
 
-## Skills
+### ML Researcher & Developer
 
-### Programming Languages
+**Heidelberg Institute for Theoretical Studies (HITS)** | Jan 2018 – Dec 2018
 
-Python, Java, C/C++, R, Matlab
+* Designed LSTM and Tree-LSTM architectures for sequence modeling.
+* Developed generative models for abstractive summarization.
+* Applied reinforcement learning to neural sequence optimization.
 
-### Tools / Libraries
+---
 
-PyTorch, TensorFlow, Keras, GitHub Actions, Jenkins, Hugging Face Transformers, Azure Machine Learning, fastai, LangChain, LangGraph, scikit-learn, SciPy, PySpark, OpenCV, Docker, MLflow, BentoML, pandas, NumPy, Matplotlib, seaborn
+### ML Engineer / Team Lead (NLP Systems)
+
+**Intelligent Information System Lab** | Sep 2016 – Dec 2017
+
+* Led development of a Named Entity Recognition (NER) system for as a fundamental module of a Persian Search Engine.
+* Coordinated research and engineering teams for NLP pipelines.
+* Built Java-based production NLP components for Persian search systems.
+
+---
+
+### Developer & ML Engineer
+
+**Mobin Information Technology Research Center** | Jan 2014 – Aug 2016
+
+* Built NLP pipelines for entity recognition and relation extraction.
+* Developed clustering and recommendation systems for large-scale news text data.
+
+---
+
+### Computational Linguistics Developer
+
+**University of Tehran – NLP Lab** | May 2008 – Sep 2013
+
+* Developed foundational NLP modules (tokenization, POS tagging, parsing).
+* Built semi-supervised annotation frameworks for linguistic datasets.
+
+---
+
+## 🎓 Education
+
+**PhD in Computational Language Processing**
+Friedrich Schiller University Jena | 2024
+
+* Project: Structural analysis of long-form text using machine learning, deep learning, and time-series methods
+
+**MSc in Artificial Intelligence and Robotics**
+Iran University of Science and Technology | 2008
+
+* Thesis: Development of core NLP modules (POS tagging, parsing, named entity recognition) for analyzing Persian texts
+
+---
+
+## 🧠 Selected Projects
+
+* **Intelligent Receipt & Invoice Processing App (Azure)**
+  Developed an Android application to intelligently process receipt and invoice images/PDFs with automated data extraction, categorization, and reporting.
+
+* **SME Digital Presence & Onboarding App**
+  Developed a mobile application to simplify digital onboarding and online presence creation for freelancers and SMEs, enabling them to introduce their services to a broader audience without requiring advanced website management knowledge.
+
+* **Local-RAG: Retrieval-Augmented Document System**
+  Privacy-focused local RAG system using LangChain and Chroma.
+
+* **FastAPI Azure Full-Stack Template**
+  production-ready FastAPI backend and frontend template optimized for containerized cloud environments (Azure/Docker).
+
+* **Text2Image-NN Classifier**
+  Cross-domain long-text analysis using vision-based neural representations.
+
+* **Sequence Labeling System (fastai)**
+  Document-level sequence labeling for long-context processing.
+
+* **MorphoBERT (NER System)**
+  High-performance NER system using custom BERT + morphology features.
+
+* **Persianp NLP Toolkit**
+  Java-based NLP library for Persian text processing.
+
+---
+
+## ☁️ Certifications
+
+### Microsoft Azure
+
+* Microsoft Certified: **Azure AI Engineer Associate** (2026)
+* Microsoft Certified: **Azure Developer Associate** (2026)
+* Microsoft Certified: **Azure Data Scientist Associate** (2025)
+* Microsoft Certified: **Azure AI Fundamentals** (2024)
+
+### Data / Orchestration
+
+* Astronomer Certification: **Apache Airflow 3 Fundamentals** (2026)
+
+---
+
+## 🧰 Technical Skills
+
+### Machine Learning & AI
+
+Python, PyTorch, TensorFlow, Hugging Face Transformers, scikit-learn, fastai, LangChain, LangGraph
+
+### MLOps & Orchestration
+
+Azure ML, MLflow, Airflow, Docker
+
+### Data Engineering & Streaming
+
+Apache Kafka, Kafka Streams, Spark, PySpark
+
+### Cloud
+
+Microsoft Azure (primary)
 
 ### Databases
 
-PostgreSQL, MySQL, MongoDB
-
-### Languages
-
-English (Business fluent), Deutsch (Upper-intermediate), Persian (Native), Turkish (Intermediate)
+PostgreSQL, MongoDB, MySQL
 
 ---
 
-## Hobbies
+## 📚 Selected Publications
 
-Traveling, Photography, Gardening
+* Comparative Analysis of Preference in Contemporary and Earlier Texts Using Entropy Measures (Entropy, 2023)
+* Approximate Entropy in Canonical and Non-Canonical Fiction (Entropy, 2022)
+* Fractality and Variability in Canonical and Non-Canonical English Fiction and in Non-Fictional Texts (Frontiers in Psychology, 2021)
+* Global Image Properties Predict Ratings of Affective Pictures (Frontiers in Psychology, 2020)
+* PEYMA: Persian NER corpus (2019)
+
+---
+
+## 🎯 Hobbies
+
+Traveling • Photography • Gardening
+
+---
+
