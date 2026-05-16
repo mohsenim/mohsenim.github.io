@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 header:
   teaser: /assets/images/medium.svg
 author: "Mahdi Mohseni"

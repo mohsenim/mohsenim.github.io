@@ -9,9 +9,9 @@ header:
   overlay_filter: "rgba(15, 31, 46, 0.75)"
 ---
 
-Feel free to reach out for collaborations, questions, or just to connect.
+Feel free to reach out for collaborations or questions.
 
-<div style="max-width: 520px; margin-top: 2rem;">
+<div style="max-width: 900px; margin-top: 2rem;">
 
   <div class="contact-row">
     <span class="contact-row__icon"><i class="fas fa-fw fa-envelope"></i></span>
@@ -41,16 +41,16 @@ Feel free to reach out for collaborations, questions, or just to connect.
     <span class="contact-row__icon"><i class="fab fa-fw fa-medium"></i></span>
     <div>
       <strong>Medium</strong>
-      <a href="https://mohsenim.medium.com/" target="_blank">mohsenim.medium.com</a>
+      <a href="https://medium.com/@mohsenim" target="_blank">medium.com/@mohsenim</a>
     </div>
   </div>
 
-  <div class="contact-row">
+  <!-- <div class="contact-row">
     <span class="contact-row__icon"><i class="fas fa-fw fa-globe"></i></span>
     <div>
       <strong>Website</strong>
       <a href="https://www.mohsenim.de" target="_blank">mohsenim.de</a>
     </div>
-  </div>
+  </div> -->
 
 </div>

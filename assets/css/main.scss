@@ -102,6 +102,18 @@ html, body {
   }
 }
 
+// logo: larger, transparent bg
+.site-logo {
+  background: transparent;
+
+  img {
+    max-height: 3rem;
+    width: auto;
+    background: transparent;
+    display: block;
+  }
+}
+
 // hamburger bars (dark on frosted-glass nav)
 .navicon,
 .navicon::before,
@@ -166,8 +178,8 @@ html, body {
 // ---- Content card -------------------------------------------
 
 #main {
-  background: #fff;
-  box-shadow: 0 1px 24px rgba(15, 31, 46, 0.06);
+  background: var(--off-white); // #fff;  //background color of the main content area
+  // box-shadow: 0 1px 24px rgba(15, 31, 46, 0.06); // removed shadow
 }
 
 
@@ -221,7 +233,7 @@ body,
   }
 
   p, li {
-    color: #3d4a5c;
+    color: #5f6f80;
     line-height: 1.85;
   }
 }
@@ -251,6 +263,34 @@ body,
   }
 }
 
+
+// ---- Interior pages without sidebar (blog, CV, projects, …) ----
+
+// Theme still reserves sidebar space when author_profile is off.
+#main:not(:has(.sidebar)) {
+  @media (min-width: 1024px) {
+    .archive,
+    .page {
+      float: none;
+      width: 100%;
+      padding-inline-end: 0;
+    }
+  }
+
+  // Theme floats these; margin-inline: auto won't center a float.
+  .page__inner-wrap,
+  .page__content {
+    float: none;
+  }
+
+  .entries-list,
+  .page__content {
+    max-width: 900px;
+    width: 100%;
+    margin-inline: auto;
+    box-sizing: border-box;
+  }
+}
 
 // ---- Blog archive listing -----------------------------------
 
@@ -318,19 +358,54 @@ body,
 // ---- Recent activities section (home page) ------------------
 
 .recent-activities {
-  max-width: 900px;
-  margin: 3rem auto 2rem;
-  padding: 0 1em;
+  background: var(--navy);
+  padding-top: 1.5em;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+
+  /* The breakout trick */
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  box-sizing: border-box;
+}
+
+/* Target the elements inside to keep them constrained to 900px */
+.recent-activities > * {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+  box-sizing: border-box;
 }
 
 .recent-activities__heading {
-  font-family: var(--serif);
-  font-size: 1.8rem;
-  font-weight: 300;
-  color: var(--navy);
-  margin-bottom: 1.8rem;
-  padding-bottom: 0.4rem;
-  border-bottom: 1px solid var(--warm-gray);
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--off-white);
+  margin-bottom: 0.6rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+
+  &::before {
+    content: '';
+    display: block;
+    width: 24px;
+    height: 1px;
+    background: var(--gold);
+    flex-shrink: 0;
+  }
+}
+.page__content h2.recent-activities__heading {
+  color: var(--off-white);
 }
 
 .activity-item {
@@ -378,7 +453,7 @@ body,
   margin: 0 0 0.4rem;
 
   a {
-    color: var(--navy);
+    color: var(--off-white);
     text-decoration: none;
     &:hover { color: var(--gold); }
   }
@@ -420,13 +495,37 @@ body,
 }
 
 .feature__item {
+  .archive__item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  // Fixed-height slot so titles line up across columns.
+  .archive__item-teaser {
+    flex-shrink: 0;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0em;
+    padding: 0.5rem;
+    // background: #fff;
+    border: 0px solid var(--warm-gray);
+    border-radius: 1px;
+    box-sizing: border-box;
+
+    img {
+      width: auto;
+      height: auto;
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+    }
+  }
+
   .archive__item-title {
     font-family: var(--serif);
     a { color: var(--navy); }
-  }
-
-  .archive__item-teaser img {
-    border-radius: 4px;
   }
 
   .btn--primary {
@@ -452,10 +551,10 @@ body,
   gap: 2.5rem;
   flex-wrap: wrap;
   padding: 2rem;
-  background: var(--warm-gray);
-  border-radius: 4px;
+  // background: var(--warm-gray);
+  // border-radius: 4px;
   margin-bottom: 2.5rem;
-  box-shadow: 0 2px 12px rgba(15, 31, 46, 0.08);
+  // box-shadow: 0 2px 12px rgba(15, 31, 46, 0.08);
 
   img {
     width: 150px;
@@ -535,4 +634,40 @@ body,
   strong { display: block; color: var(--navy); margin-bottom: 0.15em; font-weight: 500; }
   a { color: var(--gold); }
   a:hover { text-decoration: underline; }
+}
+
+
+// ---- Post layout hero: eyebrow label + title ----------------
+
+.page__hero-eyebrow {
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold-light);
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+
+  &::before {
+    content: '';
+    display: block;
+    width: 24px;
+    height: 1px;
+    background: var(--gold-light);
+    flex-shrink: 0;
+  }
+}
+
+// layout--post body class: centre hero text (matches other pages)
+.layout--post {
+  .page__hero--overlay .wrapper {
+    text-align: center;
+
+    .page__hero-eyebrow {
+      justify-content: center;
+    }
+  }
 }

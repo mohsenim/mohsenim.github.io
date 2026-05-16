@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 header:
   teaser: /assets/images/linkedin.png
 author: "Mahdi Mohseni"

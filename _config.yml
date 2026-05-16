@@ -25,8 +25,8 @@ description              : "Mahdi Mohseni's personal website — Machine Learnin
 url                      : "https://mohsenim.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "mohsenim/mohsenim.github.io"
-teaser                   : "/assets/images/500x300.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/176x176.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : "/assets/images/logo280x280.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
@@ -67,7 +67,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-  hide                   : # true, false (default)
+  hide                   : true # true, false (default)
 search                   : false
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
@@ -219,9 +219,10 @@ permalink: /:categories/:title/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
-# Pagination with jekyll-paginate
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+# Pagination with jekyll-paginate (only applies to root index.html with home layout)
+# Disabled: homepage uses splash layout; posts are listed at /blog/
+# paginate: 5
+# paginate_path: /page:num/
 
 # Pagination with jekyll-paginate-v2
 # See https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration
@@ -313,7 +314,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: post
       author_profile: false
       read_time: false
       comments: # true
