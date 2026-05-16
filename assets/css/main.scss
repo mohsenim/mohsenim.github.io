@@ -270,7 +270,8 @@ body,
 #main:not(:has(.sidebar)) {
   @media (min-width: 1024px) {
     .archive,
-    .page {
+    .page,
+    .page__related {
       float: none;
       width: 100%;
       padding-inline-end: 0;
@@ -279,12 +280,14 @@ body,
 
   // Theme floats these; margin-inline: auto won't center a float.
   .page__inner-wrap,
-  .page__content {
+  .page__content,
+  .page__related {
     float: none;
   }
 
   .entries-list,
-  .page__content {
+  .page__content,
+  .page__related {
     max-width: 900px;
     width: 100%;
     margin-inline: auto;

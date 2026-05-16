@@ -114,7 +114,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "M. Mohseni"
+  name             : "Mahdi Mohseni"
   avatar           : "/assets/images/bio-photo.jpg"
   bio              : "Machine Learning Specialist & Data Engineer"
   location         : "Germany"
@@ -318,6 +318,6 @@ defaults:
       author_profile: false
       read_time: false
       comments: # true
-      share: true
+      share: false
       related: true
 
