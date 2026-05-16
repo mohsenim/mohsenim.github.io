@@ -12,7 +12,7 @@ header:
 <div class="profile-card">
   <img src="/assets/images/bio-photo.jpg" alt="M. Mohseni">
   <div class="profile-card__info">
-    <h2>M. Mohseni, Ph.D.</h2>
+    <h2>Mahdi Mohseni, Ph.D.</h2>
     <p class="profile-card__title">Machine Learning &amp; MLOps Engineer</p>
     <ul>
       <li><i class="fas fa-fw fa-map-marker-alt"></i>&ensp;NRW — Germany</li>

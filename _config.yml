@@ -20,7 +20,7 @@ direction                : # "ltr" (default), "rtl" # set the direction of the p
 title                    : "MOHSENIM"
 title_separator          : "-"
 subtitle                 : "mohsenim.de"
-name                     : "M. Mohseni"
+name                     : "Mahdi Mohseni"
 description              : "Mahdi Mohseni's personal website — Machine Learning Specialist & Data Engineer"
 url                      : "https://mohsenim.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
