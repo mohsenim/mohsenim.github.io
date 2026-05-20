@@ -521,12 +521,33 @@ body,
 
 .feature__wrapper {
   border-top: none;
+  border-bottom: none;
   padding-top: 1.5em;
   margin-top: 0;
+  // Break out to 1000px max-width, matching recent-activities
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  box-sizing: border-box;
+  padding-left: max(1em, calc((100vw - 1000px) / 2));
+  padding-right: max(1em, calc((100vw - 1000px) / 2));
+  // Flex for equal-height cards
+  display: flex;
+  align-items: stretch;
+  gap: 1.5rem;
 }
 
 .feature__item {
+  // Flex child: equal width, stretch to tallest card
+  flex: 1 1 0;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+
   .archive__item {
+    flex: 1;
     display: flex;
     flex-direction: column;
   }
@@ -714,6 +735,7 @@ body,
 // ---- Feature row: card hover --------------------------------
 
 .feature__item .archive__item {
+  height: 100%;
   border: 1px solid rgba(15, 31, 46, 0.07);
   border-radius: 4px;
   overflow: hidden;
@@ -860,8 +882,30 @@ body,
 }
 
 
-// ---- Feature row: body padding (text away from card border) -
+// ---- Feature row: body padding + flex for button alignment --
 
 .feature__item .archive__item-body {
-  padding: 0.5rem 1.25rem 1.25rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 0.75rem 1.25rem 1.25rem;
+
+  // Push the "Learn more" button to the bottom of every card
+  > p:last-child {
+    margin-top: auto;
+    padding-top: 0.75rem;
+  }
+}
+
+// Reset theme's float/margin on feature items so flex takes over
+.feature__item:nth-child(n) {
+  float: none;
+  margin-inline-start: 0;
+  clear: none;
+  width: auto;
+}
+
+// Suppress clearfix ::after so it doesn't become a stray flex item
+.feature__wrapper::after {
+  content: none;
 }
