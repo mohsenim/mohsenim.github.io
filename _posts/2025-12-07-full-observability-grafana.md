@@ -2,6 +2,7 @@
 layout: post
 header:
   teaser: /assets/images/linkedin.png
+  icon: fas fa-fw fa-chart-area
 author: "Mahdi Mohseni"
 title: "Achieving Full Observability with the Grafana Ecosystem"
 date: 2025-12-07

@@ -2,6 +2,7 @@
 layout: post
 header:
   teaser: /assets/images/medium.svg
+  icon: fas fa-fw fa-database
 author: "Mahdi Mohseni"
 title: "Logging Datasets in Machine Learning Experiments with MLflow"
 date: "2025-01-26"

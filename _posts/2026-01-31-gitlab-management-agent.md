@@ -2,6 +2,7 @@
 layout: post
 header:
   teaser: /assets/images/medium.svg
+  icon: fab fa-fw fa-gitlab
 author: "Mahdi Mohseni"
 title: "GitLab Management MCP Agent"
 date: 2026-01-31

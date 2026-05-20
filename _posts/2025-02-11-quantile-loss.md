@@ -2,6 +2,7 @@
 layout: post
 header:
   teaser: /assets/images/medium.svg
+  icon: fas fa-fw fa-chart-bar
 author: "Mahdi Mohseni"
 title: "Time Series Forecasting - Quantile Forecasting - Quantile Loss"
 date: 2025-02-11

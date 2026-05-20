@@ -18,10 +18,16 @@
         <img src="{{ teaser | relative_url }}" alt="">
       </div>
     {% endif %}
-    {% if include.type != "grid" and teaser %}
-      <div class="archive__item-thumb">
-        <img src="{{ teaser | relative_url }}" alt="{{ title }}">
-      </div>
+    {% if include.type != "grid" %}
+      {% if post.header.icon %}
+        <a href="{{ post.url | relative_url }}" class="archive__item-thumb archive__item-thumb--fa">
+          <i class="{{ post.header.icon }}"></i>
+        </a>
+      {% elsif teaser %}
+        <div class="archive__item-thumb">
+          <img src="{{ teaser | relative_url }}" alt="{{ title }}">
+        </div>
+      {% endif %}
     {% endif %}
     <div class="archive__item-body">
       <h2 class="archive__item-title no_toc p-name" itemprop="headline">

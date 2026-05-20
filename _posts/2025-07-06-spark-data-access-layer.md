@@ -2,6 +2,7 @@
 layout: post
 header:
   teaser: /assets/images/medium.svg
+  icon: fas fa-fw fa-layer-group
 author: "Mahdi Mohseni"
 title: "Data Access Layer Abstraction with Apache Spark"
 date: 2025-07-06

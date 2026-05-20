@@ -149,11 +149,28 @@ html, body {
 
 .page__hero--overlay {
   padding: 2em 0;
+  position: relative;
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(184, 150, 90, 0.12) 1px, transparent 0),
+    linear-gradient(135deg, rgba(26, 51, 71, 0) 0%, rgba(26, 51, 71, 0.55) 55%, rgba(26, 51, 71, 0) 100%);
+  background-size: 28px 28px, 100% 100%;
+
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--gold), transparent);
+    pointer-events: none;
+  }
 
   .page__title {
     font-family: var(--serif);
     font-size: clamp(1.8rem, 3vw, 2.8rem);
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 0.02em;
     text-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
   }
@@ -233,8 +250,8 @@ body,
   }
 
   p, li {
-    color: #5f6f80;
-    line-height: 1.85;
+    color: #4a5568;
+    line-height: 1.75;
   }
 }
 
@@ -434,6 +451,7 @@ body,
   justify-content: center;
   padding: 8px;
   transition: box-shadow 0.2s;
+  text-decoration: none;
 
   &:hover { box-shadow: 0 4px 16px rgba(15, 31, 46, 0.15); }
 
@@ -441,6 +459,16 @@ body,
     width: 100%;
     height: 100%;
     object-fit: contain;
+  }
+
+  &.activity-item__icon--fa {
+    background: rgba(184, 150, 90, 0.08);
+    border-color: rgba(184, 150, 90, 0.3);
+
+    i {
+      font-size: 1.6rem;
+      color: var(--gold);
+    }
   }
 }
 
@@ -506,7 +534,7 @@ body,
   // Fixed-height slot so titles line up across columns.
   .archive__item-teaser {
     flex-shrink: 0;
-    height: 300px;
+    height: 160px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -564,8 +592,8 @@ body,
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    border: 3px solid #fff;
-    box-shadow: 0 2px 12px rgba(15, 31, 46, 0.15);
+    border: 2px solid var(--gold);
+    box-shadow: 0 0 0 5px rgba(184, 150, 90, 0.15), 0 4px 16px rgba(15, 31, 46, 0.15);
     flex-shrink: 0;
   }
 }
@@ -673,4 +701,167 @@ body,
       justify-content: center;
     }
   }
+}
+
+
+// ---- Splash hero: more breathing room -----------------------
+
+.layout--splash .page__hero--overlay {
+  padding: 5em 0 4.5em;
+}
+
+
+// ---- Feature row: card hover --------------------------------
+
+.feature__item .archive__item {
+  border: 1px solid rgba(15, 31, 46, 0.07);
+  border-radius: 4px;
+  overflow: hidden;
+  transition: box-shadow 0.2s ease, transform 0.15s ease;
+
+  &:hover {
+    box-shadow: 0 6px 24px rgba(15, 31, 46, 0.1);
+    transform: translateY(-3px);
+  }
+}
+
+
+// ---- Blog archive: hover highlight --------------------------
+
+.list__item .archive__item {
+  transition: background-color 0.15s ease;
+  border-radius: 3px;
+  margin-inline: -0.5rem;
+  padding-inline: 0.5rem;
+
+  &:hover {
+    background: rgba(184, 150, 90, 0.04);
+  }
+}
+
+
+// ---- Activity list: hover nudge -----------------------------
+
+.activity-item {
+  transition: transform 0.15s ease;
+
+  &:hover {
+    transform: translateX(4px);
+  }
+}
+
+
+// ---- About page: expertise grid -----------------------------
+
+.expertise-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 1.4rem;
+  margin: 1.75rem 0 2rem;
+}
+
+.expertise-card {
+  padding: 1.4rem 1.5rem 1.5rem;
+  border: 1px solid var(--warm-gray);
+  border-radius: 4px;
+  border-top: 3px solid var(--gold);
+
+  .expertise-card__icon {
+    font-size: 1.4rem;
+    color: var(--gold);
+    margin-bottom: 0.65rem;
+    display: block;
+  }
+
+  h3 {
+    font-family: var(--serif);
+    font-size: 1.05rem;
+    font-weight: 400;
+    margin: 0 0 0.5rem;
+    color: var(--navy);
+  }
+
+  p {
+    font-size: 0.88rem;
+    color: var(--text-muted);
+    margin: 0;
+    line-height: 1.6;
+  }
+}
+
+
+// ---- CV page: skill chips -----------------------------------
+
+.skill-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 0.6rem 0 1.6rem;
+  padding: 0;
+  list-style: none;
+
+  li {
+    display: inline-block;
+    padding: 0.22rem 0.72rem;
+    font-size: 0.78rem;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    border-radius: 3px;
+    background: var(--warm-gray);
+    color: var(--navy-mid);
+    border: 1px solid rgba(15, 31, 46, 0.1);
+    line-height: 1.5;
+  }
+}
+
+
+// ---- CV page: experience timeline ---------------------------
+
+.cv-entry {
+  border-left: 2px solid var(--warm-gray);
+  padding-left: 1.5rem;
+  margin-bottom: 2.25rem;
+  position: relative;
+
+  &::before {
+    content: '';
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: var(--gold);
+    border: 2px solid var(--off-white);
+    position: absolute;
+    left: -6px;
+    top: 10px;
+  }
+
+  h3 {
+    font-family: var(--serif);
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--navy);
+    margin-top: 0;
+    margin-bottom: 0.2em;
+  }
+}
+
+
+// ---- Blog archive: FA icon thumb variant --------------------
+
+.archive__item-thumb--fa {
+  background: rgba(184, 150, 90, 0.08);
+  border-color: rgba(184, 150, 90, 0.3);
+  text-decoration: none;
+
+  i {
+    font-size: 1.5rem;
+    color: var(--gold);
+  }
+}
+
+
+// ---- Feature row: body padding (text away from card border) -
+
+.feature__item .archive__item-body {
+  padding: 0.5rem 1.25rem 1.25rem;
 }

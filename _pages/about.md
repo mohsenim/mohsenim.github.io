@@ -29,8 +29,22 @@ I am a Machine Learning, MLOps, and Data Engineer who bridges the gap between da
 
 My work centers on three main domains:
 
-* **Enterprise Data Streaming & Infrastructure:** Architecting decoupled microservices and real-time ingestion pipelines (Kafka, Docker, FastAPI) capable of processing high-density time-series data, automated batch workflows, and historical data backfills.
-* **Cloud & Production MLOps:** Designing and deploying containerized applications within cloud environments (Azure), with a strict focus on reproducible deployment pipelines, experiment tracking (MLflow), and optimized model serving.
-* **Generative AI & Autonomy:** Engineering robust Retrieval-Augmented Generation (RAG) systems and building intelligent text-processing pipelines to automate workflows and optimize enterprise processes.
+<div class="expertise-grid">
+  <div class="expertise-card">
+    <i class="fas fa-fw fa-stream expertise-card__icon"></i>
+    <h3>Enterprise Data Streaming</h3>
+    <p>Architecting decoupled microservices and real-time ingestion pipelines (Kafka, Docker, FastAPI) capable of processing high-density time-series data, automated batch workflows, and historical data backfills.</p>
+  </div>
+  <div class="expertise-card">
+    <i class="fas fa-fw fa-cloud expertise-card__icon"></i>
+    <h3>Cloud & Production MLOps</h3>
+    <p>Designing and deploying containerized applications within cloud environments (Azure), with a strict focus on reproducible deployment pipelines, experiment tracking (MLflow), and optimized model serving.</p>
+  </div>
+  <div class="expertise-card">
+    <i class="fas fa-fw fa-robot expertise-card__icon"></i>
+    <h3>Generative AI & Autonomy</h3>
+    <p>Engineering robust Retrieval-Augmented Generation (RAG) systems and building intelligent text-processing pipelines to automate workflows and optimize enterprise processes.</p>
+  </div>
+</div>
 
 Backed by a proven track record in both advanced academic research and hands-on industry product development, my primary focus is creating stable, automated backend systems that process data reliably at scale.

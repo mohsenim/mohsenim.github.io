@@ -4,7 +4,7 @@
     Adding and editing issues on the website involves many clicks and a slow interface, so I
     built an MCP agent to manage issues more efficiently.
   link: /gitlab-management-agent/
-  image: /assets/images/medium.svg
+  icon: fab fa-fw fa-gitlab
   tech:
     - MCP Agent
     - GitLab
@@ -16,7 +16,7 @@
     nontrivial. This post summarises the tooling and architecture I selected to build a fully
     open-source observability stack while keeping the option to move to Grafana Cloud.
   link: /full-observability-grafana/
-  image: /assets/images/linkedin.png
+  icon: fas fa-fw fa-chart-area
   tech:
     - Logging
     - Monitoring
@@ -30,7 +30,7 @@
     compute, and scaling needs without rewriting your core logic each time? I show how Apache
     Spark can be used as an abstraction layer for data access.
   link: /spark-data-access-layer/
-  image: /assets/images/medium.svg
+  icon: fas fa-fw fa-layer-group
   tech:
     - Spark
     - PySpark
@@ -42,7 +42,7 @@
     often differ. I walk through parametric probabilistic models and introduce CRPS — a loss
     function designed for training them.
   link: /crps/
-  image: /assets/images/medium.svg
+  icon: fas fa-fw fa-chart-line
   tech:
     - Time Series
     - CRPS
@@ -54,7 +54,7 @@
     can differ significantly. Quantile forecasting addresses this by estimating confidence
     intervals, offering a nuanced view of uncertainty.
   link: /quantile-loss/
-  image: /assets/images/medium.svg
+  icon: fas fa-fw fa-chart-bar
   tech:
     - Time Series
     - Quantile Regression

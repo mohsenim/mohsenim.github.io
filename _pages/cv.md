@@ -9,9 +9,10 @@ header:
   overlay_filter: "rgba(15, 31, 46, 0.75)"
 ---
 
-## 💼 Professional Experience
+## Professional Experience
 
-### Lead Data Engineer / MLOps Engineer (Time-Series & Streaming Systems)
+<div class="cv-entry" markdown="1">
+### Lead Data Engineer / MLOps Engineer — Time-Series & Streaming Systems
 
 **MOcons GmbH & Co. KG** \| **Hochschule Ruhr West**
 
@@ -20,7 +21,9 @@ header:
 * Built scalable pipelines for real-time ingestion, historical reprocessing, and long-term backfilling (up to 15 years of data).
 * Implemented ML lifecycle management and model tracking using MLflow.
 * Designed hybrid orchestration systems to manage decoupled streaming and batch data workloads.
+</div>
 
+<div class="cv-entry" markdown="1">
 ### Data Scientist & ML Engineer
 
 **Snappfood** \| Oct 2023 – Feb 2025
@@ -29,7 +32,9 @@ header:
 * Built retrieval-augmented generation (RAG) pipelines for recommendation and query optimization.
 * Applied NLP techniques for intent extraction and behavioral modeling.
 * Fine-tuned transformer models using domain-specific instruction datasets.
+</div>
 
+<div class="cv-entry" markdown="1">
 ### ML Researcher & Developer
 
 **Friedrich Schiller University Jena** \| Jan 2019 – Sep 2023
@@ -38,7 +43,9 @@ header:
 * Designed transformer-based architectures for document classification, clustering, and structural modeling.
 * Conducted research in long-range dependency modeling and time-series behavior in textual data.
 * Built reproducible ML experimentation pipelines.
+</div>
 
+<div class="cv-entry" markdown="1">
 ### ML Researcher & Developer
 
 **Heidelberg Institute for Theoretical Studies (HITS)** \| Jan 2018 – Dec 2018
@@ -46,43 +53,57 @@ header:
 * Designed LSTM and Tree-LSTM architectures for sequence modeling.
 * Developed generative models for abstractive summarization.
 * Applied reinforcement learning to neural sequence optimization.
+</div>
 
-### ML Engineer / Team Lead (NLP Systems)
+<div class="cv-entry" markdown="1">
+### ML Engineer / Team Lead — NLP Systems
 
 **Intelligent Information System Lab** \| Sep 2016 – Dec 2017
 
-* Led development of a Named Entity Recognition (NER) system for as a fundamental module of a Persian Search Engine.
+* Led development of a Named Entity Recognition (NER) system as a fundamental module of a Persian Search Engine.
 * Coordinated research and engineering teams for NLP pipelines.
 * Built Java-based production NLP components for Persian search systems.
+</div>
 
+<div class="cv-entry" markdown="1">
 ### Developer & ML Engineer
 
 **Mobin Information Technology Research Center** \| Jan 2014 – Aug 2016
 
 * Built NLP pipelines for entity recognition and relation extraction.
 * Developed clustering and recommendation systems for large-scale news text data.
+</div>
 
+<div class="cv-entry" markdown="1">
 ### Computational Linguistics Developer
 
-**University of Tehran – NLP Lab** \| May 2008 – Sep 2013
+**University of Tehran — NLP Lab** \| May 2008 – Sep 2013
 
 * Developed foundational NLP modules (tokenization, POS tagging, parsing).
 * Built semi-supervised annotation frameworks for linguistic datasets.
+</div>
 
 
-## 🎓 Education
+## Education
 
-**PhD in Computational Language Processing**
+<div class="cv-entry" markdown="1">
+### PhD in Computational Language Processing
+
 Friedrich Schiller University Jena \| 2024
 
 * Project: Structural analysis of long-form text using machine learning, deep learning, and time-series methods
+</div>
 
-**MSc in Artificial Intelligence and Robotics**
+<div class="cv-entry" markdown="1">
+### MSc in Artificial Intelligence and Robotics
+
 Iran University of Science and Technology \| 2008
 
 * Thesis: Development of core NLP modules (POS tagging, parsing, named entity recognition) for analyzing Persian texts
+</div>
 
-## ☁️ Certifications
+
+## Certifications
 
 ### Microsoft Azure
 
@@ -95,29 +116,57 @@ Iran University of Science and Technology \| 2008
 
 * Astronomer Certification: **Apache Airflow 3 Fundamentals** (2026)
 
-## 🧰 Technical Skills
+
+## Technical Skills
 
 ### Machine Learning & AI
 
-Python, PyTorch, TensorFlow, Microsoft Foundry, Hugging Face Transformers, scikit-learn, fastai, LangChain, LangGraph
+<ul class="skill-chips">
+<li>Python</li>
+<li>PyTorch</li>
+<li>TensorFlow</li>
+<li>Microsoft Foundry</li>
+<li>Hugging Face Transformers</li>
+<li>scikit-learn</li>
+<li>fastai</li>
+<li>LangChain</li>
+<li>LangGraph</li>
+</ul>
 
 ### MLOps & Orchestration
 
-Azure ML, MLflow, Airflow, Docker
+<ul class="skill-chips">
+<li>Azure ML</li>
+<li>MLflow</li>
+<li>Airflow</li>
+<li>Docker</li>
+</ul>
 
 ### Data Engineering & Streaming
 
-Apache Kafka, Kafka Streams, Spark, PySpark
+<ul class="skill-chips">
+<li>Apache Kafka</li>
+<li>Kafka Streams</li>
+<li>Apache Spark</li>
+<li>PySpark</li>
+</ul>
 
 ### Cloud
 
-Microsoft Azure (primary)
+<ul class="skill-chips">
+<li>Microsoft Azure</li>
+</ul>
 
 ### Databases
 
-PostgreSQL, MongoDB, MySQL
+<ul class="skill-chips">
+<li>PostgreSQL</li>
+<li>MongoDB</li>
+<li>MySQL</li>
+</ul>
 
-## 📚 Selected Publications
+
+## Selected Publications
 
 * Comparative Analysis of Preference in Contemporary and Earlier Texts Using Entropy Measures (Entropy, 2023)
 * Approximate Entropy in Canonical and Non-Canonical Fiction (Entropy, 2022)
@@ -125,7 +174,7 @@ PostgreSQL, MongoDB, MySQL
 * Global Image Properties Predict Ratings of Affective Pictures (Frontiers in Psychology, 2020)
 * PEYMA: Persian NER corpus (2019)
 
-## 🎯 Hobbies
+
+## Hobbies
 
 Traveling • Photography • Gardening
-
