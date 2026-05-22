@@ -18,6 +18,8 @@ Feel free to reach out for collaborations or questions.
     <div>
       <strong>Email</strong>
       <a href="mailto:kontakt@mohsenim.de">kontakt@mohsenim.de</a>
+      <br>
+      <a href="mailto:contact@mohsenim.com">contact@mohsenim.com</a>
     </div>
   </div>
 

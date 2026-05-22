@@ -609,8 +609,8 @@ body,
   // box-shadow: 0 2px 12px rgba(15, 31, 46, 0.08);
 
   img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     object-fit: cover;
     border: 2px solid var(--gold);
@@ -841,7 +841,8 @@ body,
 
 .cv-entry {
   border-left: 2px solid var(--warm-gray);
-  padding-left: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   margin-bottom: 2.25rem;
   position: relative;
 

@@ -16,7 +16,7 @@ header:
     <p class="profile-card__title">Machine Learning &amp; MLOps Engineer</p>
     <ul>
       <li><i class="fas fa-fw fa-map-marker-alt"></i>&ensp;NRW — Germany</li>
-      <li><i class="fas fa-fw fa-envelope"></i>&ensp;<a href="mailto:kontakt@mohsenim.de">kontakt@mohsenim.de</a></li>
+      <!-- <li><i class="fas fa-fw fa-envelope"></i>&ensp;<a href="mailto:kontakt@mohsenim.de">kontakt@mohsenim.de</a></li> -->
       <!-- <li><i class="fab fa-fw fa-github"></i>&ensp;<a href="https://github.com/mohsenim" target="_blank">github.com/mohsenim</a></li>
       <li><i class="fab fa-fw fa-linkedin"></i>&ensp;<a href="https://www.linkedin.com/in/mohsenim" target="_blank">linkedin.com/in/mohsenim</a></li>
       <li><i class="fab fa-fw fa-medium"></i>&ensp;<a href="https://mohsenim.medium.com/" target="_blank">mohsenim.medium.com</a></li>
