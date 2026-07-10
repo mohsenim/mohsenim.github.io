@@ -111,6 +111,7 @@ Iran University of Science and Technology \| 2008
 * Microsoft Certified: **Azure Developer Associate** (2026)
 * Microsoft Certified: **Azure Data Scientist Associate** (2025)
 * Microsoft Certified: **Azure AI Fundamentals** (2024)
+* Microsoft Certified: **Azure Fundamentals** (2024)
 
 ### Data / Orchestration
 
