@@ -1,3 +1,13 @@
+- name: A RAG-based Document Q&A Agent on Azure
+  description: >
+    I built a system for a customer that needed to work with large volumes of invoices and contracts. The idea was: upload documents; extract, index and save information from documents; ask a question in plain language; prepare the context; get a direct answer with the source cited. The system was deployed on Azure.
+  link: /doc-agent-azure/
+  icon: fab fa-fw fa-gitlab
+  tech:
+    - Retrieval Augmented Gen
+    - AI Foundry
+    - Azure
+    
 - name: GitLab Management MCP Agent
   description: >
     In our group, we use GitLab not only as our version-control tool but also for planning.
