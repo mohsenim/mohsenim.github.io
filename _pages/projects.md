@@ -34,7 +34,7 @@ Designed and engineered the core backend microservice infrastructure to support 
 
 #### Conversational Commerce & Customer Support Automation
 
-Designed and developed an early-stage conversational AI pipeline for Iran's leading food and beverage delivery platform, enabling automated customer ordering, intelligent semantic search, and automated support routing.
+Designed and developed an early-stage conversational AI pipeline for a leading food and beverage delivery platform, enabling automated customer ordering, intelligent semantic search, and automated support routing.
 
 * **Client / Platform:** Snappfood (Food & Beverage Delivery Marketplace)
 
@@ -47,13 +47,16 @@ Designed and developed an early-stage conversational AI pipeline for Iran's lead
 
 
 ## Solo Projects & Open-Source Contributions
-
+* **[A RAG-based Document Q&A Agent on Azure](https://github.com/mohsenim/DocAgentAzure)**
+Developed an AI agent for document question answering, enabling users to interact with documents through natural language queries and retrieve relevant information using Azure AI Foundry and Document Intelligence.
 * **Intelligent Receipt & Invoice Processing Android App on Azure**
-Developed an Android application utilizing the Azure ecosystem for advanced image and PDF analysis, enabling automated financial data extraction, categorization, and reporting.
+Developed an Android app with a Microsoft Azure backend for automated receipt and invoice processing, extracting, categorizing, and structuring financial data from images and PDFs for reporting and expense management.
+* **[GitLab Management MCP Agent](https://github.com/mohsenim/gitlab-management-agent)**
+Built an MCP (Model Context Protocol) server that lets AI assistants like Cursor to create, update, label, and assign GitLab issues.
 * **Digital Onboarding & Presence Mobile App for Small and Medium Businesses**
 Built a mobile application designed to simplify and automate the digital footprint, online presence, and local marketing workflows for freelancers and SMEs.
 * **[Local-RAG: Retrieval-Augmented Document System](https://github.com/mohsenim/Local-RAG-with-LangChain-and-Chroma)**
-Implemented a local, privacy-focused RAG architecture using LangChain, Chroma vector database, and local LLMs for secure document querying.
+Built a Retrieval-Augmented Generation (RAG) application for querying local documents using LangChain, a Chroma vector database, and ChatGPT.
 * **[FastAPI Azure Full-Stack Template](https://github.com/mohsenim/FastAPI-Backend-Frontend-Azure)**
 Engineered a production-ready FastAPI backend and frontend boilerplate template optimized for containerized cloud environments (Azure/Docker).
 * **[BentoML: Serve & Deploy Machine Learning Models](https://github.com/mohsenim/BentoMl-Deploy-Docker)**
