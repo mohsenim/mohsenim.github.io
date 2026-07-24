@@ -2,7 +2,7 @@
 layout: post
 header:
   teaser: /assets/images/medium.svg
-  icon: fas fa-fw fa-rocket
+  icon: fa-solid fa-cloud fa-fw
 title: "Deploying to IONOS Managed Kubernetes: A Practical Walkthrough"
 date: 2026-07-20
 tags: ["Kubernetes",

@@ -2,7 +2,7 @@
 layout: post
 header:
   teaser: /assets/images/medium.svg
-  icon: fas fa-fw fa-rocket
+  icon: fas fa-robot
 title: "A RAG-based Document Q&A Agent on Azure"
 date: 2026-07-13
 tags: ["Retrieval Augmented Gen",
