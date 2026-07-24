@@ -1,8 +1,19 @@
+- name: Deploying to IONOS Managed Kubernetes - A Practical Walkthrough
+  description: >
+    I recently worked on deploying a project to IONOS Managed Kubernetes and documented the experience in a practical walkthrough. The Kubernetes concepts are familiar, but every cloud provider has its own ecosystem, tooling, networking defaults, and configuration details. This post covers the setup process, the IONOS-specific parts, and some of the lessons learned along the way.
+  link: /ionos-managed-kubernetes/
+  icon: fa-solid fa-cloud fa-fw
+  tech:
+    - Kubernetes
+    - IONOS
+    - Terraform
+    - Helm
+
 - name: A RAG-based Document Q&A Agent on Azure
   description: >
     I built a system for a customer that needed to work with large volumes of invoices and contracts. The idea was: upload documents; extract, index and save information from documents; ask a question in plain language; prepare the context; get a direct answer with the source cited. The system was deployed on Azure.
   link: /doc-agent-azure/
-  icon: fab fa-fw fa-gitlab
+  icon: fas fa-robot
   tech:
     - Retrieval Augmented Gen
     - AI Foundry
@@ -46,26 +57,26 @@
     - PySpark
     - SQLAlchemy
 
-- name: Time Series Forecasting — Continuous Ranked Probability Score (CRPS)
-  description: >
-    Many forecasting models treat over- and under-predictions the same. In practice the stakes
-    often differ. I walk through parametric probabilistic models and introduce CRPS — a loss
-    function designed for training them.
-  link: /crps/
-  icon: fas fa-fw fa-chart-line
-  tech:
-    - Time Series
-    - CRPS
-    - Loss Function
+# - name: Time Series Forecasting — Continuous Ranked Probability Score (CRPS)
+#   description: >
+#     Many forecasting models treat over- and under-predictions the same. In practice the stakes
+#     often differ. I walk through parametric probabilistic models and introduce CRPS — a loss
+#     function designed for training them.
+#   link: /crps/
+#   icon: fas fa-fw fa-chart-line
+#   tech:
+#     - Time Series
+#     - CRPS
+#     - Loss Function
 
-- name: Time Series Forecasting — Quantile Forecasting — Quantile Loss
-  description: >
-    Traditional forecasting treats over- and under-predictions equally, but real-world costs
-    can differ significantly. Quantile forecasting addresses this by estimating confidence
-    intervals, offering a nuanced view of uncertainty.
-  link: /quantile-loss/
-  icon: fas fa-fw fa-chart-bar
-  tech:
-    - Time Series
-    - Quantile Regression
-    - Quantile Loss
+# - name: Time Series Forecasting — Quantile Forecasting — Quantile Loss
+#   description: >
+#     Traditional forecasting treats over- and under-predictions equally, but real-world costs
+#     can differ significantly. Quantile forecasting addresses this by estimating confidence
+#     intervals, offering a nuanced view of uncertainty.
+#   link: /quantile-loss/
+#   icon: fas fa-fw fa-chart-bar
+#   tech:
+#     - Time Series
+#     - Quantile Regression
+#     - Quantile Loss
