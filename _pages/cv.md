@@ -11,7 +11,7 @@ header:
 
 ## Profile
 
-ML/AI Engineer with 15+ years of R&D and production experience building machine learning systems across text, structured and time-series data. PhD in Computational Text Processing. Designs and ships large-scale, production-grade ML systems — NLP, LLM and time-series applications — on cloud platforms, backed by five Microsoft Azure AI/data certifications.
+ML/AI Engineer with 15+ years of R&D and production experience building machine learning systems across text, structured and time-series data. PhD in Computational Text Processing. Designs and ships large-scale, production-grade ML systems —NLP, LLM and time-series applications— on cloud platforms, backed by five Microsoft Azure AI/data certifications.
 
 
 ## Professional Experience
