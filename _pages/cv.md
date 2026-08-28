@@ -10,9 +10,11 @@ header:
 ---
 
 ## Profile
+<div style="text-align: justify;">
 
-ML/AI Engineer with 15+ years of R&D and production experience building machine learning systems across text, structured and time-series data. PhD in Computational Text Processing. Designs and ships large-scale, production-grade ML systems —NLP, LLM and time-series applications— on cloud platforms, backed by five Microsoft Azure AI/data certifications.
+ML/AI Engineer with 15+ years of R&D and production experience building AI and data-driven software systems. Experienced in designing production-grade ML and AI applications, backend services, event-driven data pipelines, and cloud-based solutions across text, structured, and time-series data. Strong background in Kafka, Kubernetes, Docker, Terraform, MLflow, LLMs, RAG, and AI agent development. Experienced with cloud services and Azure ecosystem, with a focus on translating ML capabilities into scalable and maintainable software systems. PhD in Computational Language Processing using ML Models, with five Microsoft Azure AI/data certifications.
 
+</div>
 
 ## Professional Experience
 
@@ -21,11 +23,13 @@ ML/AI Engineer with 15+ years of R&D and production experience building machine 
 
 **MOcons GmbH & Co. KG** \| **Hochschule Ruhr West**, Mülheim \| Feb 2025 – Present
 
-* Designed and engineered a core backend microservice infrastructure for real-time time-series anomaly detection and clustering, deployed for major German utility and environmental organizations including StEB Köln, RWW, LANUV NRW, EGLV, and Bitcontrol.
-* Designed and implemented a Kafka / Kafka Streams event-driven streaming architecture processing up to **1,100 concurrent time-series streams** with sampling frequencies from 1 to 15 minutes.
+*	Designed and engineered a microservice-based platform for real-time time-series anomaly detection and clustering, deployed for major German utility and environmental organizations including StEB Köln, RWW, LANUK NRW, EGLV, and Bitcontrol.
+* Designed and implemented a Kafka / Kafka Streams event-driven streaming architecture processing up to 1,100 concurrent time-series streams with sampling frequencies from 1 to 15 minutes.
 * Built scalable pipelines for real-time ingestion, historical reprocessing, and long-term backfilling (up to 15 years of data).
+* Designed and implemented processing workflows for both continuous streaming workloads and large-scale batch data processing, including hybrid orchestration of decoupled workloads.
+* Containerized and deployed production services on Kubernetes, using Helm for application packaging and Terraform for infrastructure provisioning.
 * Implemented ML lifecycle management and model tracking using MLflow.
-* Designed hybrid orchestration systems to manage decoupled streaming and batch data workloads.
+
 </div>
 
 <div class="cv-entry" markdown="1">
@@ -33,8 +37,8 @@ ML/AI Engineer with 15+ years of R&D and production experience building machine 
 
 **Snappfood** (remote) \| Oct 2023 – Feb 2025
 
-* Developed intelligent conversational LLM pipeline and intent routing system for customer support automation and CRM enhancement.
-* Built retrieval-augmented generation (RAG) pipelines for recommendation and query optimization.
+*	Designed and developed an LLM-based conversational pipeline and intent-routing system for customer-support automation and CRM enhancement.
+* Built retrieval-augmented generation (RAG) pipelines for recommendation and query optimization, integrating retrieval and language-model components into application workflows.
 * Fine-tuned transformer models using domain-specific instruction datasets.
 </div>
 
@@ -90,6 +94,71 @@ ML/AI Engineer with 15+ years of R&D and production experience building machine 
 
 ## Technical Skills
 
+### Machine Learning &amp; Analytics
+
+<ul class="skill-chips">
+<li>PyTorch</li>
+<li>TensorFlow</li>
+<li>scikit-learn</li>
+<li>pandas</li>
+<li>Matplotlib</li>
+</ul>
+
+### AI &amp; Agentic Systems
+
+<ul class="skill-chips">
+<li>LLMs</li>
+<li>AI Agents</li>
+<li>Retrieval-Augmented Generation (RAG)</li>
+<li>Vector &amp; Semantic Search</li>
+<li>LangChain</li>
+<li>LangGraph</li>
+<li>MCP</li>
+<li>Hugging Face Transformers</li>
+<li>Prompt Engineering</li>
+</ul>
+
+### Data &amp; Stream Engineering
+
+<ul class="skill-chips">
+<li>Kafka</li>
+<li>Kafka Streams</li>
+<li>Apache Spark</li>
+<li>PySpark</li>
+<li>Airflow</li>
+<li>Stream &amp; Batch Processing</li>
+</ul>
+
+### Backend &amp; High-Scale Engineering
+
+<ul class="skill-chips">
+<li>FastAPI</li>
+<li>REST APIs</li>
+<li>Microservices</li>
+<li>Event-Driven Architecture</li>
+</ul>
+
+### Cloud &amp; Azure
+
+<ul class="skill-chips">
+<li>Azure ML</li>
+<li>Azure AI Foundry</li>
+<li>Azure OpenAI Service</li>
+<li>Azure AI Search</li>
+<li>Fabric</li>
+</ul>
+
+### MLOps &amp; DevOps
+
+<ul class="skill-chips">
+<li>Docker</li>
+<li>Kubernetes</li>
+<li>Helm</li>
+<li>Terraform</li>
+<li>GitHub Actions</li>
+<li>MLflow</li>
+</ul>
+
 ### Programming Languages
 
 <ul class="skill-chips">
@@ -101,68 +170,45 @@ ML/AI Engineer with 15+ years of R&D and production experience building machine 
 <li>MATLAB</li>
 </ul>
 
-### Machine Learning & LLMs
-
-<ul class="skill-chips">
-<li>PyTorch</li>
-<li>TensorFlow</li>
-<li>scikit-learn</li>
-<li>Hugging Face Transformers</li>
-<li>LangChain</li>
-<li>LangGraph</li>
-</ul>
-
-### Data & Streaming
-
-<ul class="skill-chips">
-<li>Kafka</li>
-<li>Spark</li>
-<li>PySpark</li>
-</ul>
-
-### MLOps & DevOps
-
-<ul class="skill-chips">
-<li>MLflow</li>
-<li>Docker</li>
-<li>K8s</li>
-<li>Terraform</li>
-<li>Helm</li>
-<li>GitHub Actions</li>
-<li>Airflow</li>
-</ul>
-
-### Azure
-
-<ul class="skill-chips">
-<li>Azure ML</li>
-<li>Azure AI Foundry</li>
-<li>Azure OpenAI Service</li>
-<li>Azure AI Search</li>
-<li>Fabric</li>
-</ul>
-
-### Development & Tooling
-
-<ul class="skill-chips">
-<li>FastAPI</li>
-<li>pandas</li>
-<li>Matplotlib</li>
-<li>Claude Code</li>
-<li>Cursor</li>
-<li>Conda</li>
-<li>Git</li>
-<li>Jupyter Notebook</li>
-</ul>
-
 ### Databases
 
 <ul class="skill-chips">
-<li>Postgres</li>
+<li>PostgreSQL</li>
 <li>MySQL</li>
 <li>MongoDB</li>
 <li>Chroma</li>
 </ul>
+
+### Developer Tools
+
+<ul class="skill-chips">
+<li>Git</li>
+<li>Jupyter Notebook</li>
+<li>Conda</li>
+<li>Cursor</li>
+<li>Claude Code</li>
+</ul>
+
+## Teaching Experience
+
+<div class="cv-entry" markdown="1">
+### Teaching Assistant
+
+**University of Tehran**, Tehran \| 2016 – 2017
+
+* Machine Learning for Text and Language Processing
+</div>
+
+<div class="cv-entry" markdown="1">
+### Lecturer
+
+**Behshahr University of Science and Technology**, Behshahr \| 2006 – 2007
+
+* Artificial Intelligence
+* Programming Languages I & II
+* Design and Analysis of Algorithms
+* Computer Graphics
+</div>
 
 ## Selected Publications
 
