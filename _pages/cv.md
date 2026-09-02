@@ -27,6 +27,7 @@ ML/AI Engineer with 15+ years of R&D and production experience building AI and d
 * Designed and implemented a Kafka / Kafka Streams event-driven streaming architecture processing up to 1,100 concurrent time-series streams with sampling frequencies from 1 to 15 minutes.
 * Built scalable pipelines for real-time ingestion, historical reprocessing, and long-term backfilling (up to 15 years of data).
 * Designed and implemented processing workflows for both continuous streaming workloads and large-scale batch data processing, including hybrid orchestration of decoupled workloads.
+* Applied prompt engineering and fine-tuning, and deployed open-source LLMs locally to automatically interpret and summarize complex dashboard analytics.
 * Containerized and deployed production services on Kubernetes, using Helm for application packaging and Terraform for infrastructure provisioning.
 * Implemented ML lifecycle management and model tracking using MLflow.
 
