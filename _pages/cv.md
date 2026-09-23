@@ -12,14 +12,14 @@ header:
 ## Profile
 <div style="text-align: justify;">
 
-ML/AI Engineer with 15+ years of R&D and production experience building AI and data-driven software systems. Experienced in designing production-grade ML and AI applications, backend services, event-driven data pipelines, and cloud-based solutions across text, structured, and time-series data. Strong background in Kafka, Kubernetes, Docker, Terraform, MLflow, LLMs, RAG, and AI agent development. Experienced with cloud services and Azure ecosystem, with a focus on translating ML capabilities into scalable and maintainable software systems. PhD in Computational Language Processing using ML Models, with five Microsoft Azure AI/data certifications.
+Machine Learning & AI Engineer with 15+ years of R&D and production experience building AI and data-driven software systems. Experienced in designing production-grade Machine Learning (ML) and AI applications, backend services, event-driven data pipelines, and cloud-based solutions across text, structured, and time-series data. Strong background in Kafka, Kubernetes, Docker, Terraform, MLflow, LLMs, RAG, and AI agent development. Experienced with cloud services and Azure ecosystem, with a focus on translating ML capabilities into scalable and maintainable software systems. PhD in Computational Language Processing using ML Models, with five Microsoft Azure AI/data certifications.
 
 </div>
 
 ## Professional Experience
 
 <div class="cv-entry" markdown="1">
-### ML Engineer
+### Machine Learning and MLOps Engineer
 
 **MOcons GmbH & Co. KG** \| **Hochschule Ruhr West**, Mülheim \| Feb 2025 – Present
 
@@ -34,54 +34,66 @@ ML/AI Engineer with 15+ years of R&D and production experience building AI and d
 </div>
 
 <div class="cv-entry" markdown="1">
-### ML Engineer & Data Scientist
+### Machine Learning Engineer
 
 **Snappfood** (remote) \| Oct 2023 – Feb 2025
 
 *	Designed and developed an LLM-based conversational pipeline and intent-routing system for customer-support automation and CRM enhancement.
 * Built retrieval-augmented generation (RAG) pipelines for recommendation and query optimization, integrating retrieval and language-model components into application workflows.
 * Fine-tuned transformer models using domain-specific instruction datasets.
+
 </div>
 
 <div class="cv-entry" markdown="1">
-### ML Researcher and Developer
+### Machine Learning Scientist
 
 **Friedrich-Schiller-Universität Jena**, Jena \| Jan 2019 – Sep 2023
 
-* Developed deep learning and transformer-based models for cross-domain text and image analysis, document classification, clustering, and structural modeling.
-* Conducted research in long-range dependency modeling and time-series behavior in textual data and built reproducible ML experimentation pipelines.
+* Developed deep learning and transformer-based models for text analysis, including document classification, clustering, and structural modeling
+* Developed statistical and machine learning models for cross-domain text and image analysis
+* Analyzed long-range dependency modeling and temporal behavior in textual data
 </div>
 
 <div class="cv-entry" markdown="1">
-### ML Researcher and Developer
+### Machine Learning Scientist
 
 **Heidelberger Institut für Theoretische Studien**, Heidelberg \| Jan 2018 – Dec 2018
 
-* Designed LSTM and Tree-LSTM architectures for sequence modeling and generative models for abstractive summarization; applied reinforcement learning to neural sequence optimization.
+* Developed neural models for NLP, including generative AI, LSTM, Tree-LSTM, and end-to-end neural architectures
+* Implemented reinforcement learning approaches for neural NLP models
+* Researched and developed generative models for abstractive text summarization
 </div>
 
 <div class="cv-entry" markdown="1">
-### ML Engineer / Team Lead
+### Machine Learning Engineer / Team Lead
 
 **Intelligent Information Systems Lab**, Tehran \| Sep 2016 – Dec 2017
 
-* Developed a Java-based Named Entity Recognition (NER) system and supporting dataset as a core component of a Persian Search Engine.
+* Led an Entity Recognition project as a core component of a Persian-language search engine, from proposal 
+* preparation and planning through coordination and final delivery
+* Developed foundational machine learning and neural models for text analysis
+* Built and curated task-specific datasets for model development and evaluation
 </div>
 
 <div class="cv-entry" markdown="1">
-### ML Engineer / Team Lead
+### Machine Learning Engineer / Team Lead
 
 **Mobin Information Technology Center**, Tehran \| Jan 2014 – Aug 2016
 
-* Built NLP pipelines for entity recognition and relation extraction; developed clustering and recommendation systems for large-scale news text data.
+* Led the Text Processing Team and developed an NLP pipeline for large-scale news processing
+* Developed NLP components for named entity recognition, relation extraction, news clustering, and recommendation
+* Built an indexing and full-text search system, enriching indexed content with extracted linguistic and semantic information and optimizing search queries
+* Designed and curated task-specific datasets and developed machine learning models for multiple NLP tasks
 </div>
 
 <div class="cv-entry" markdown="1">
-### Computational Linguistics Developer
+### NLP Developer & Data Scientist
 
 **University of Tehran — NLP Lab**, Tehran \| May 2008 – Jan 2014
 
-* Developed foundational NLP modules and semi-supervised annotation frameworks for linguistic datasets.
+* Developed foundational language-processing modules for Persian 
+* Analyzed linguistic corpora using statistical and machine learning models
+* Developed tools and algorithms for semi-supervised annotation of linguistic data
 </div>
 
 ## Certifications
@@ -191,6 +203,15 @@ ML/AI Engineer with 15+ years of R&D and production experience building AI and d
 </ul>
 
 ## Teaching Experience
+
+<div class="cv-entry" markdown="1">
+### Lead Subject Matter Expert (SME)
+
+**Coursera / Hurix Digital**, Online \|2026
+
+* Lead SME for the technical audit and validation of the Machine Learning Operations course, targeting the Microsoft AI-300: Machine Learning Operations Engineer Associate
+certification.
+</div>
 
 <div class="cv-entry" markdown="1">
 ### Teaching Assistant
