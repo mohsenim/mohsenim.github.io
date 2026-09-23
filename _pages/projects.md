@@ -28,7 +28,8 @@ Designed and engineered the core backend microservice infrastructure to support 
 * **Data Streaming & Processing:** Implemented **Kafka** and **Kafka Streams** to build reliable, real-time data ingestion pipelines and dedicated project-specific import adapters.
 * **Stream Variations:** Configured pipelines to adaptively handle varying data granularities (1-minute to 15-minute frequencies) and system latencies across up to 1,100 concurrent time series.
 * **Data Lifecycle Management:** Built robust scheduling mechanisms executing distinct execution workflows based on client readiness, supporting **real-time streaming**, **scheduled batch processing**, and historical **backfilling/reprocessing** for up to 15 years of archive data.
-
+* **Container Orchestration & Infrastructure:** Containerized and deployed production services on **Kubernetes**, using **Helm** for application packaging and **Terraform** for infrastructure provisioning.
+* **ML Lifecycle Management:** Implemented **MLflow** for machine learning lifecycle management, experiment tracking, and model versioning.
 
 ### Intelligent Conversational LLM Pipeline & Intent Routing Engine
 
@@ -41,7 +42,7 @@ Designed and developed an early-stage conversational AI pipeline for a leading f
 **Key Engineering Contributions:**
 
 * **Intent Classification & Parameter Extraction:** Built NLP pipelines to process raw customer chat text, classifying requests into operational intents (e.g., "food search") while dynamically extracting search parameters and filtering criteria.
-* **Context-Aware Recommendations:** Integrated user profile data with intent parameters to query the product database, dynamically serving personalized restaurant and food recommendations directly within the chat interface.
+* **Context-Aware Recommendations:** Built a retrieval-augmented generation (RAG) pipeline that integrated user profile data and intent parameters to retrieve relevant products from the product database and dynamically generate personalized restaurant and food recommendations within the chat interface.
 * **Intelligent Support Routing:** Developed an automated detection mechanism to identify customer complaints and seamlessly hand off complex order issues to live support team members.
 * **Domain Fine-Tuning:** Fine-tuned open-source transformer models using tailored, domain-specific instruction datasets to maximize classification and parameter-extraction accuracy under production constraints.
 

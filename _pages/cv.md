@@ -207,7 +207,7 @@ Machine Learning & AI Engineer with 15+ years of R&D and production experience b
 <div class="cv-entry" markdown="1">
 ### Lead Subject Matter Expert (SME)
 
-**Coursera / Hurix Digital**, Online \|2026
+**Coursera / Hurix Digital**, Online \| 2026
 
 * Lead SME for the technical audit and validation of the Machine Learning Operations course, targeting the Microsoft AI-300: Machine Learning Operations Engineer Associate
 certification.
